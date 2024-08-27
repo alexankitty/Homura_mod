@@ -1,0 +1,386 @@
+{
+  "Strike_Homura": {
+    "NAME": "打击",
+    "DESCRIPTION": "造成 !D! 点伤害。"
+  },
+  "Defend_Homura": {
+    "NAME": "防御",
+    "DESCRIPTION": "获得 !B! 点 格挡。"
+  },
+  "Throw": {
+    "NAME": "投掷",
+    "DESCRIPTION": "丢弃 !M! 张牌。 NL 抽 !M! 张牌。 NL 保留 。"
+  },
+  "IED": {
+    "NAME": "简易炸弹",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 投掷 。 NL 军火 。"
+  },
+  "DesertEagle": {
+    "NAME": "沙鹰",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 易伤 。 NL 军火 。"
+  },
+
+
+
+
+
+
+
+  "BombMaking": {
+    "NAME": "制作炸弹",
+    "DESCRIPTION": "在你的回合开始时，将 1 张 *简易炸弹 加入手牌。",
+    "UPGRADE_DESCRIPTION": "在你的回合开始时，将 1 张 *简易炸弹+ 加入手牌。"
+  },
+  "FlashBang": {
+    "NAME": "闪光弹",
+    "DESCRIPTION": "给予所有敌人 !M! 层 虚弱 和 易伤 。 NL 投掷 。 NL 军火 。"
+  },
+  "TimeBomb": {
+    "NAME": "定时炸弹",
+    "DESCRIPTION": "敌人在下回合结束后受到 !M! 点伤害。 NL 投掷 。 NL 军火 。"
+  },
+  "Smoke": {
+    "NAME": "烟雾弹",
+    "DESCRIPTION": "获得 !B! 点 格挡。 NL 给予所有敌人 !M! 层 虚弱 。 NL 投掷 。 NL 军火 。"
+  },
+  "M84": {
+    "NAME": "震撼弹",
+    "DESCRIPTION": " 击晕 随机敌人。 NL 投掷 。 NL 军火 。",
+    "UPGRADE_DESCRIPTION": " 击晕 所有敌人。 NL 投掷 。 NL 军火 。"
+  },
+  "FireExtinguisher": {
+    "NAME": "灭火器",
+    "DESCRIPTION": "获得 1 层 无实体 。 NL 投掷 。",
+    "UPGRADE_DESCRIPTION": "获得 1 层 无实体 。 NL 移除你的所有debuff。 NL 投掷 。"
+  },
+
+
+  "M18A1": {
+    "NAME": "地雷",
+    "DESCRIPTION": "当你被攻击时，返还同等伤害。 NL 受到 !M! 次攻击后移除。 NL 消耗 。 NL 军火 。"
+  },
+  "M249": {
+    "NAME": "M249",
+    "DESCRIPTION": "随机造成 !D! 点伤害 !M! 次。 NL 军火 。"
+  },
+  "M870": {
+    "NAME": "M870",
+    "DESCRIPTION": "造成 !D! 点伤害 NL 给予 1 层 虚弱 和 易伤 !M! 次。 NL 军火 。"
+  },
+  "M92": {
+    "NAME": "清空弹匣",
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL 消耗 。 NL 军火 。"
+  },
+  "Flash": {
+    "NAME": "闪现",
+    "DESCRIPTION": "获得 !B! 点 格挡。 NL 抽 !M! 张牌。 NL 丢弃 1 张牌。"
+  },
+  "SwivelThrow": {
+    "NAME": "旋身",
+    "DESCRIPTION": "获得 !B! 点 格挡。 NL 从抽牌堆中选择 1 张牌放入你的手牌。 NL 丢弃 1 张牌。"
+  },
+  "LiftHair": {
+    "NAME": "撩发",
+    "DESCRIPTION": "抽 !M! 张牌， NL 丢弃 !M! 张牌。"
+  },
+  "Reload": {
+    "NAME": "上膛",
+    "DESCRIPTION": "丢弃任意张牌，然后抽相同数量张牌。 NL 将你的弃牌堆洗入抽牌堆。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "丢弃任意张牌，然后抽相同数量张牌。 NL 将你的弃牌堆洗入抽牌堆。"
+  },
+  "DodgeShot": {
+    "NAME": "闪避射击",
+    "DESCRIPTION": "丢弃 !M! 张牌。 NL 获得 !B! 点 格挡 。 NL 造成 !D! 点伤害。"
+  },
+
+
+
+  "FuelTankCar": {
+    "NAME": "油罐车",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 虚弱 和 易伤 。 NL 反坦克 。 NL 军火 。"
+  },
+  "SSM1": {
+    "NAME": "陆基反舰导弹",
+    "DESCRIPTION": "随机对敌人造成 !D! 点伤害 6 次。 NL 反坦克 。 NL 军火 。"
+  },
+  "AT4": {
+    "NAME": "AT4火箭筒",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 反坦克 。 NL 军火 。"
+  },
+
+
+
+
+
+  "Mercy": {
+    "NAME": "仁慈",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果敌人的意图是攻击，造成 !M! 倍 基础伤害 。 NL 如果不是，则给予 !M! 层 虚弱 。"
+  },
+  "Clean": {
+    "NAME": "清扫",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果杀死了一名敌人，将这张牌的复制加入手牌，本回合耗能为0。 NL 猎杀 。 "
+  },
+  "Hunt": {
+    "NAME": "猎杀",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 抽 !M! 张牌。 NL 猎杀 。"
+  },
+  "Kick": {
+    "NAME": "踢击",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 敌人失去未被 格挡 的伤害相等的 力量1回合。"
+  },
+  "GunsWorkBetterThanMagic": {
+    "NAME": "这可比魔法好用多了",
+    "DESCRIPTION": "在你的手牌中加入 X 张随机军火牌。 NL 它们在本回合的耗能变为0。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "在你的手牌中加入 X 张升级过的随机军火牌。 NL 它们在本回合的耗能变为0。 NL 消耗 。"
+  },
+
+
+  "Detonate": {
+    "NAME": "引爆",
+    "DESCRIPTION": "选择你弃牌堆中的 !M! 张具有 消耗 的牌打出。 NL 保留 。"
+  },
+  "Prepare": {
+    "NAME": "备弹",
+    "DESCRIPTION": "在下一回合多抽 !M! 张牌。 NL 军火 。"
+  },
+  "GrandEntrance": {
+    "NAME": "华丽登场",
+    "DESCRIPTION": "本回合没有打出其他牌才能打出。 NL 抽 !M! 张牌。 NL 固有 。 NL 消耗 。"
+  },
+  "Rush": {
+    "NAME": "疾跑",
+    "DESCRIPTION": "抽 !M! 张牌。"
+  },
+  "Confrontation": {
+    "NAME": "对峙",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 结束你的回合。"
+  },
+  "TimeStop": {
+    "NAME": "时停",
+    "DESCRIPTION": "你的下 1 张牌耗能为0。 NL 保留 。"
+  },
+  "Pretend": {
+    "NAME": "佯装",
+    "DESCRIPTION": "失去 !M! 点生命 。 NL 你的下 1 张牌耗能为0。 NL 移除你的所有debuff。",
+    "UPGRADE_DESCRIPTION": "失去 !M! 点生命 。 NL 你的下 1 张牌耗能为0。 NL 移除你的所有debuff。 NL 保留 。"
+  },
+  "Treatment": {
+    "NAME": "净化",
+    "DESCRIPTION": "消耗你的所有状态牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "消耗你的所有状态牌。 NL 消耗 。 NL 保留 。"
+  },
+  "Production": {
+    "NAME": "量产",
+    "DESCRIPTION": "复制你手牌中的 1 张军火牌，直到你手牌达到上限。 NL 消耗 。"
+  },
+
+
+
+
+
+  "Untie": {
+    "NAME": "解开发箍",
+    "DESCRIPTION": "免疫 虚弱 ， 易伤 和 脆弱 。"
+  },
+  "Clocks": {
+    "NAME": "掐表是吧?",
+    "DESCRIPTION": "你每打出 12 张牌，将 1 张 *腾跃 加入手牌。",
+    "UPGRADE_DESCRIPTION": "你每打出 12 张牌，将 1 张 *腾跃+ 加入手牌。"
+  },
+  "MoveAndFire": {
+    "NAME": "移动射击",
+    "DESCRIPTION": "你每打出 1 张攻击牌，获得 !M! 点 格挡 。"
+  },
+  "Stock": {
+    "NAME": "进货",
+    "DESCRIPTION": "在你的回合开始时，将 1 张随机军火牌加入你的手牌。",
+    "UPGRADE_DESCRIPTION": "在你的回合开始时，将 1 张升级过的随机军火牌加入你的手牌。"
+  },
+  "Stamina": {
+    "NAME": "耐力",
+    "DESCRIPTION": "你每打出 1 张攻击牌，随机将抽牌堆 1 张技能牌加入手牌。 NL 你每打出 1 张技能牌，随机将抽牌堆 1 张攻击牌加入手牌。"
+  },
+
+
+  "FalseTown": {
+    "NAME": "伪街",
+    "DESCRIPTION": "在你的回合开始时，将 !M! 张你没有的 *使魔 洗入抽牌堆， NL 将 !M! 张随机 诅咒 牌洗入你的弃牌堆中。",
+    "UPGRADE_DESCRIPTION": "在你的回合开始时，将 !M! 张你没有的 *使魔 洗入抽牌堆， NL 将 !M! 张随机 诅咒 牌洗入你的弃牌堆中。 NL 固有 。"
+  },
+  "LawOfCycles": {
+    "NAME": "圆环之理",
+    "DESCRIPTION": "当你抽到 诅咒 牌时，将其消耗，将 1 张 *奇迹 加入手牌。"
+  },
+  "ThePriceOfMiracles": {
+    "NAME": "奇迹和魔法可不是免费的",
+    "DESCRIPTION": "将 !M! 张 *奇迹 加入手牌。 NL 将 1 张随机 诅咒 牌洗入你的弃牌堆中。"
+  },
+  "Feeding": {
+    "NAME": "投喂",
+    "DESCRIPTION": "从手牌中选择 1 张牌 消耗 ，抽 1 张牌。 NL 如果是 诅咒 牌 ，获得 [E] 。 NL 如果是 状态牌 ，额外抽 1 张牌。"
+  },
+  "Contract": {
+    "NAME": "契约",
+    "DESCRIPTION": "将 1 张 *许愿 加入手牌,本回合耗能变为0。 NL 将 1 张随机 诅咒 牌洗入你的弃牌堆中。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "将 1 张 *许愿+ 加入手牌,本回合耗能变为0。 NL 将 1 张随机 诅咒 牌洗入你的弃牌堆中。 NL 消耗 。"
+  },
+
+
+
+  "Hope": {
+    "NAME": "希望",
+    "DESCRIPTION": "回复 !M! 生命。 NL 将一张 *绝望 洗入弃牌堆。 NL 消耗 。"
+  },
+  "Maze": {
+    "NAME": "迷宫",
+    "DESCRIPTION": "抽 !M! 张牌。 NL 将一张 *绝望 洗入弃牌堆。 NL (数值为你本场游戏SL次数) NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "抽 !M! 张牌。 NL 将一张 *绝望 洗入弃牌堆。 NL (数值为你本场游戏SL次数)"
+  },
+  "Strong": {
+    "NAME": "渐强",
+    "DESCRIPTION": "失去 !M! 生命。 NL 获得 !M! 点 力量 。 NL (数值为你本场游戏SL次数)"
+  },
+  "Twining": {
+    "NAME": "缠绕",
+    "DESCRIPTION": "获得 !M! 层 缠绕 。 NL 在每回合开始时获得 [E] 。 NL (数值为你本场游戏SL次数)"
+  },
+  "Alone": {
+    "NAME": "孤独",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 牌组中每有 1 张不重复的牌，获得 !M! 格挡 。 NL 将一张 *绝望 洗入弃牌堆 。",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。 NL 牌组中每有 1 张不重复的牌，获得 !M! 格挡 。 NL 额外获诅咒数量的 格挡 。 NL 将一张 *绝望 洗入弃牌堆 。"
+  },
+
+
+
+
+  "Demon": {
+    "NAME": "恶魔",
+    "DESCRIPTION": "你的 使魔 种类和 诅咒 合计15及以上才能打出。 NL 消灭所有敌人。 NL !M! /15",
+    "UPGRADE_DESCRIPTION": "你的 使魔 种类和 诅咒 合计15及以上才能打出。 NL 消灭所有敌人。 NL !M! /15 NL 保留 。"
+  },
+  "Encircle": {
+    "NAME": "围剿",
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次, NL (你每有 1 种 使魔 重复 1 次。) NL 猎杀 。"
+  },
+
+
+
+  "Ruin": {
+    "NAME": "崩坏",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害 !M! 次， NL (你每有 1 张诅咒牌，重复 1 次。)"
+  },
+  "Separate": {
+    "NAME": "分离",
+    "DESCRIPTION": "偷取 !M! 力量 。 NL (你每有 1 张诅咒牌数值+1。) NL 消耗 。"
+  },
+  "Witch": {
+    "NAME": "魔化",
+    "DESCRIPTION": "获得 !M! 力量 。 NL (你每有 1 张诅咒牌数值+1。) ",
+    "UPGRADE_DESCRIPTION": "获得 !M! 力量 。 NL (你每有 1 张诅咒牌数值+1。) NL 固有 。 "
+  },
+  "Mud": {
+    "NAME": "污泥",
+    "DESCRIPTION": "给予所有敌人 !M! 层 虚弱 和 易伤 。 NL (你每有 1 张诅咒牌数值+1。)"
+  },
+
+
+
+  "No1": {
+    "NAME": "自大",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 层 易伤 。 NL 使魔 。"
+  },
+  "No2": {
+    "NAME": "阴沉",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 虚弱 。 NL 将一张 *腐朽 洗入弃牌堆 。 NL 使魔 。"
+  },
+  "No3": {
+    "NAME": "谎言",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 切换其意图。 NL 使魔 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 切换其意图。 NL 保留 。 NL 使魔 。"
+  },
+  "No4": {
+    "NAME": "冷血",
+    "DESCRIPTION": "获得 !M! 层 人工制品 。 NL 使魔 。"
+  },
+  "No5": {
+    "NAME": "任性",
+    "DESCRIPTION": "对随机敌人造成 !D! 点伤害。 NL 使魔 。"
+  },
+  "No6": {
+    "NAME": "毒舌",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 缠绕 。 NL 将一张 *悔恨 洗入弃牌堆 。 NL 使魔 。"
+  },
+  "No7": {
+    "NAME": "愚钝",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果目标不是boss，移除它身上的一个buff。 NL 使魔 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 如果目标不是boss，移除它身上的所有buff。 NL 使魔 。"
+  },
+  "No8": {
+    "NAME": "妒忌",
+    "DESCRIPTION": "造成 !D! 点伤害， NL 攻击生命值最高的敌人。 NL 使魔 。"
+  },
+  "No9": {
+    "NAME": "懒惰",
+    "DESCRIPTION": "给予随机敌人 !M! 层 缓慢 。 NL 使魔 。",
+    "UPGRADE_DESCRIPTION": "给予所有敌人 !M! 层 缓慢 。 NL 使魔 。"
+  },
+  "No10": {
+    "NAME": "虚荣",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 你每有50金币，造成 !M! 点伤害。 NL 使魔 。"
+  },
+  "No11": {
+    "NAME": "懦弱",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 将一张 *羞耻 洗入弃牌堆 。 NL 使魔 。"
+  },
+  "No12": {
+    "NAME": "愚蠢",
+    "DESCRIPTION": "选择你抽牌堆至多 !M! 张牌移入弃牌堆。 NL 使魔 。"
+  },
+  "No13": {
+    "NAME": "乖戾",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 将一张 *凡庸 洗入弃牌堆 。 NL 使魔 。"
+  },
+  "No14": {
+    "NAME": "固执",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 保留 。 NL 使魔 。"
+  },
+  "No15": {
+    "NAME": "爱？",
+    "DESCRIPTION": "不能被打出 。 NL 抽到或丢弃时获得 [E] 。 NL 使魔 。",
+    "UPGRADE_DESCRIPTION": "不能被打出 。 NL 抽到或丢弃时获得 [E] [E] 。 NL 使魔 。"
+  },
+
+
+
+
+  "MagicLongbow": {
+    "NAME": "魔法长弓",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 切换其意图。 NL 保留 。"
+  },
+  "ModifyMemory": {
+    "NAME": "篡改记忆",
+    "DESCRIPTION": "切换一名敌人的意图。 NL 保留 。"
+  },
+  "Puzzle": {
+    "NAME": "拼图",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 拾起这张牌时，移除牌组中其他 *拼图 ，这张卡 格挡 永久性增加其数值。"
+  },
+  "Coercion": {
+    "NAME": "胁迫",
+    "DESCRIPTION": " !M! %概率获得30金币并使非boss敌人逃跑 。 NL 目标每-1%最大生命值，成功概率+1%。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " !M! %概率获得30金币并使非boss敌人逃跑 。 NL 目标每-1%最大生命值，成功概率+1%。 NL 消耗 。 NL 保留 。"
+  },
+
+
+
+
+
+  "CauseAndEffect": {
+    "NAME": "因果",
+    "DESCRIPTION": " 不能被打出 。 NL 这个 诅咒 无法逃脱。 NL 你已经SL了 !M! 次。"
+  },
+  "Despair": {
+    "NAME": "绝望",
+    "DESCRIPTION": " 不能被打出 。 NL 在你的回合结束时，你每SL过 1 次，失去 1 生命。 NL 失去 !M! 生命。"
+  }
+}

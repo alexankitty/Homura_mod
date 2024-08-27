@@ -1,0 +1,391 @@
+{
+  "Strike_Homura": {
+    "NAME": "타격",
+    "DESCRIPTION": "!D! 피해를 줍니다."
+  },
+  "Defend_Homura": {
+    "NAME": "수비",
+    "DESCRIPTION": "!B! 방어도를 얻습니다."
+  },
+  "Throw": {
+    "NAME": "투척",
+    "DESCRIPTION": "보존. NL 카드 !M! 장을 버립니다. NL 카드 !M! 장을 뽑습니다.",
+    "UPGRADE_DESCRIPTION": "보존. NL 카드 !M! 장을 버립니다. NL 카드 !M! 장을 뽑습니다."
+  },
+  "IED": {
+    "NAME": "사제폭탄",
+    "DESCRIPTION": "모든 적에게 !D! 피해를 줍니다. NL 투척. NL 무기."
+  },
+  "DesertEagle": {
+    "NAME": "데저트 이글",
+    "DESCRIPTION": "!D! 피해를 줍니다. NL !M! 취약을 부여합니다. NL 무기."
+  },
+
+
+
+
+
+
+
+  "BombMaking": {
+    "NAME": "폭탄 제조",
+    "DESCRIPTION": "턴 시작 시 *사제폭탄 1장을 핸드에 추가합니다.",
+    "UPGRADE_DESCRIPTION": "턴 시작 시 *사제폭탄+ 1장을 핸드에 추가합니다."
+  },
+  "FlashBang": {
+    "NAME": "섬광탄",
+    "DESCRIPTION": "모든 적에게 !M! 약화와 취약을 부여합니다. NL 투척. NL 무기."
+  },
+  "TimeBomb": {
+    "NAME": "시한 폭탄",
+    "DESCRIPTION": "적 턴 종료 시 !M! 피해를 줍니다. NL 투척. NL 무기."
+  },
+  "Smoke": {
+    "NAME": "연막탄",
+    "DESCRIPTION": "!B! 방어도를 얻습니다. NL 모든 적에게 !M! 약화를 부여합니다. NL 투척. NL 무기."
+  },
+  "M84": {
+    "NAME": "충격탄",
+    "DESCRIPTION": "무작위 적을 기절시킵니다. NL 투척. NL 무기.",
+    "UPGRADE_DESCRIPTION": "모든 적을 기절시킵니다. NL 투척. NL 무기."
+  },
+  "FireExtinguisher": {
+    "NAME": "소화기",
+    "DESCRIPTION": "1 불가침을 얻습니다. NL 투척.",
+    "UPGRADE_DESCRIPTION": "1 불가침을 얻습니다. NL 모든 디버프를 제거합니다. NL 투척."
+  },
+
+
+
+  "M18A1": {
+    "NAME": "지뢰",
+    "DESCRIPTION": "이후 당하는 !M! 번의 공격의 피해를 적에게 그대로 되돌려줍니다. NL 소멸. NL 무기."
+  },
+  "M249": {
+    "NAME": "M249",
+    "DESCRIPTION": "무작위 적에게 !D! 피해를 !M! 번 줍니다. NL 무기."
+  },
+  "M870": {
+    "NAME": "M870",
+    "DESCRIPTION": "!D! 피해를 !M! 번 줍니다. 1 약화와 취약을 !M! 번 부여합니다. NL 무기."
+  },
+  "M92": {
+    "NAME": "전탄 사격",
+    "DESCRIPTION": "!D! 피해를 !M! 번 줍니다. NL 소멸. NL 무기."
+  },
+  "Flash": {
+    "NAME": "일섬",
+    "DESCRIPTION": "!B! 방어도를 얻습니다. NL 카드를 !M! 장 뽑습니다. NL 카드를 1장 버립니다.",
+	"UPGRADE_DESCRIPTION": "!B! 방어도를 얻습니다. NL 카드를 !M! 장 뽑습니다. NL 카드를 1장 버립니다."
+  },
+  "SwivelThrow": {
+    "NAME": "회전 투척",
+    "DESCRIPTION": "!B! 방어도를 얻습니다. NL 뽑을 카드 더미에서 카드 1장을 핸드로 가져옵니다. NL 카드 1장을 버립니다."
+  },
+  "LiftHair": {
+    "NAME": "머리 넘기기",
+    "DESCRIPTION": "카드 !M! 장을 뽑습니다. NL 카드 !M! 장을 버립니다.",
+    "UPGRADE_DESCRIPTION": "카드 !M! 장을 뽑습니다. NL 카드 !M! 장을 버립니다."
+  },
+  "Reload": {
+    "NAME": "재장전",
+    "DESCRIPTION": "카드를 원하는 만큼 버리고, 그만큼 뽑습니다. NL 버린 카드 더미를 뽑을 카드 더미에 넣고 섞습니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "카드를 원하는 만큼 버리고, 그만큼 뽑습니다. NL 버린 카드 더미를 뽑을 카드 더미에 넣고 섞습니다."
+  },
+
+
+
+  "FuelTankCar": {
+    "NAME": "탱크로리",
+    "DESCRIPTION": "!D! 피해를 줍니다. NL !M! 약화와 손상을 부여합니다. NL 대전차. NL 무기."
+  },
+  "SSM1": {
+    "NAME": "SSM1",
+    "DESCRIPTION": "무작위 적에게 !D! 피해를 6번 줍니다. NL 대전차. NL 무기."
+  },
+  "AT4": {
+    "NAME": "AT4",
+    "DESCRIPTION": "!D! 피해를 줍니다. NL 대전차. NL 무기."
+  },
+
+
+
+  "DodgeShot": {
+    "NAME": "회피 사격",
+    "DESCRIPTION": "카드를 !M! 장을 버립니다. NL !B! 방어도를 얻습니다. NL !D! 피해를 줍니다."
+  },
+  "Mercy": {
+    "NAME": "자비",
+    "DESCRIPTION": "!D! 피해를 줍니다. NL 적이 공격할 의도가 있다면 기본 피해의 !M! 배 피해를 줍니다. NL 아니면  !M! 약화를 부여합니다."
+  },
+  "Clean": {
+    "NAME": "소탕",
+    "DESCRIPTION": "!D! 피해를 줍니다. NL 적을 처치하면 이 카드를 핸드에 복제합니다. 복제된 카드는 이번 턴 비용이 0입니다. NL 사냥."
+  },
+  "Hunt": {
+    "NAME": "사냥",
+    "DESCRIPTION": "!D! 피해를 줍니다. NL 카드를 !M! 장 뽑습니다. NL 사냥."
+  },
+  "Kick": {
+    "NAME": "발차기",
+    "DESCRIPTION": "!D! 피해를 줍니다. NL 적은 막지 못한 피해량만큼 이번 턴 힘을 잃습니다."
+  },
+  "GunsWorkBetterThanMagic": {
+    "NAME": "총이 최고야",
+    "DESCRIPTION": "핸드에 무작위 무기를 X장 추가합니다. NL 이번 턴 해당 카드의 비용이 0이 됩니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "핸드에 강화된 무작위 무기를 X장 추가합니다. NL 이번 턴 해당 카드의 비용이 0이 됩니다. NL 소멸."
+  },
+
+
+  "Detonate": {
+    "NAME": "폭파",
+    "DESCRIPTION": "보존. NL 버린 카드 더미에서 소멸되는 카드 !M! 장을 선택합니다. NL 선택한 카드를 사용합니다."
+  },
+  "Prepare": {
+    "NAME": "준비",
+    "DESCRIPTION": "다음 턴 카드를 !M! 장 더 뽑습니다. NL 무기."
+  },
+  "GrandEntrance": {
+    "NAME": "멋지게 등장",
+    "DESCRIPTION": "선천성. NL 이번 턴 다른 카드를 안 썼을 때만 쓸 수 있습니다. NL 카드를 !M! 장 뽑습니다. NL 선천성. NL 소멸."
+  },
+  "Rush": {
+    "NAME": "달리기",
+    "DESCRIPTION": "카드를 !M! 장 뽑습니다."
+  },
+  "Confrontation": {
+    "NAME": "대적",
+    "DESCRIPTION": "!B! 방어도를 얻습니다. NL 턴을 종료합니다."
+  },
+  "TimeStop": {
+    "NAME": "시간 정지",
+    "DESCRIPTION": "보존. NL 이번 턴, 다음 카드의 비용이 0이 됩니다."
+  },
+  "Pretend": {
+    "NAME": "고육지계",
+    "DESCRIPTION": "이번 턴, 다음 카드의 비용이 0이 됩니다. NL 모든 디버프를 제거합니다. NL 체력을 !M! 잃습니다.",
+    "UPGRADE_DESCRIPTION": "보존. NL 이번 턴, 다음 카드의 비용이 0이 됩니다. NL 모든 디버프를 제거합니다. NL 체력을 !M! 잃습니다."
+  },
+  "Treatment": {
+    "NAME": "정화",
+    "DESCRIPTION": "상태이상을 모두 소멸시킵니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "보존. NL 상태이상을 모두 소멸시킵니다. NL 소멸."
+  },
+  "Production": {
+    "NAME": "대량 생산",
+    "DESCRIPTION": "무기 카드를 선택하여 손이 가득 찰 때까지 복제합니다. NL 소멸."
+  },
+
+
+
+
+
+  "Untie": {
+    "NAME": "머리 풀기",
+    "DESCRIPTION": "약화, 취약, 손상에 걸리지 않습니다."
+  },
+  "Clocks": {
+    "NAME": "시계",
+    "DESCRIPTION": "카드를 12장 사용할 때마다 *회피도약 1장을 핸드에 추가합니다.",
+    "UPGRADE_DESCRIPTION": "카드를 12장 사용할 때마다 *회피도약+ 1장을 핸드에 추가합니다."
+  },
+  "MoveAndFire": {
+    "NAME": "런 앤 건",
+    "DESCRIPTION": "공격 카드를 사용할 때마다 !M! 방어도를 얻습니다."
+  },
+  "Stock": {
+    "NAME": "무기 보충",
+    "DESCRIPTION": "턴 시작 시 무작위 무기 1장을 핸드에 추가합니다.",
+    "UPGRADE_DESCRIPTION": "턴 시작 시 무작위 강화된 무기 1장을 핸드에 추가합니다."
+  },
+  "Stamina": {
+    "NAME": "지구력",
+    "DESCRIPTION": "공격 카드 사용 시 무작위 스킬 카드 1장을, NL 스킬 카드 사용 시 무작위 공격 카드 1장을 뽑을 카드 더미에서 핸드로 가져옵니다."
+  },
+  "RedRibbon": {
+    "NAME": "빨간 리본",
+    "DESCRIPTION": "턴 종료 시 카드를 최대 1장 보존합니다.",
+    "UPGRADE_DESCRIPTION": "선천성. NL 턴 종료 시 카드를 최대 1장 보존합니다."
+  },
+  "FalseTown": {
+    "NAME": "거짓된 도시",
+    "DESCRIPTION": "턴 시작 시 새로운 사역마 카드 !M! 장을 뽑을 카드 더미에 추가하고, NL 무작위 저주 카드 !M! 장을 버린 카드 더미에 추가합니다.",
+	"UPGRADE_DESCRIPTION": "선천성. NL 턴 시작 시 새로운 사역마 카드 !M! 장을 뽑을 카드 더미에 추가하고, NL 무작위 저주 카드 !M! 장을 버린 카드 더미에 추가합니다."
+  },
+  "LawOfCycles": {
+    "NAME": "원환의 법칙",
+    "DESCRIPTION": "저주를 뽑으면 해당 카드를 소멸시키고 *기적 1장을 핸드에 추가합니다."
+  },
+
+
+
+  "ThePriceOfMiracles": {
+    "NAME": "기적의 대가",
+    "DESCRIPTION": "*기적 !M! 장을 핸드에 추가합니다. NL 무작위 저주 1장을 버린 카드 더미에 추가합니다."
+  },
+  "Feeding": {
+    "NAME": "먹이 주기",
+    "DESCRIPTION": "카드 1장을 소멸시키고 1장을 뽑습니다. NL 해당 카드가 저주였으면 추가로 [E] 를 얻습니다. NL 상태이상이었면 1장을 더 뽑습니다."
+  },
+  "Contract": {
+    "NAME": "계약",
+    "DESCRIPTION": "*염원 1장을 핸드에 추가하고 이번 턴 동안 비용을 0으로 만듭니다. NL 무작위 저주 1장을 버린 카드 더미에 추가합니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "*염원+ 1장을 핸드에 추가하고 이번 턴 동안 비용을 0으로 만듭니다. NL 무작위 저주 1장을 버린 카드 더미에 추가합니다. NL 소멸."
+	
+  },
+  "Hope": {
+    "NAME": "희망",
+    "DESCRIPTION": "체력을 !M! 회복합니다. NL *절망 1장을 버린 카드 더미에 추가합니다. NL 소멸."
+  },
+  "Maze": {
+    "NAME": "미로",
+    "DESCRIPTION": "카드를 도르마무 횟수만큼 뽑습니다. NL *절망 1장을 버린 카드 더미에 추가합니다. NL 소멸. NL 현재 도르마무 !M! 회.",
+    "UPGRADE_DESCRIPTION": "카드를 도르마무 횟수만큼 뽑습니다. NL *절망 1장을 버린 카드 더미에 추가합니다. NL 현재 도르마무 !M! 회."
+  },
+  "Strong": {
+    "NAME": "강해지자",
+    "DESCRIPTION": "도르마무 횟수만큼 체력을 잃고 힘을 얻습니다. NL 현재 도르마무 !M! 회."
+  },
+  "Twining": {
+    "NAME": "자승자박",
+    "DESCRIPTION": "도르마무 횟수만큼 포박을 얻습니다. NL 턴 시작 시 [E] 를 얻습니다. NL 현재 도르마무 !M! 회."
+  },
+  "Alone": {
+    "NAME": "외톨이",
+    "DESCRIPTION": "덱의 고유한 카드 1장당 !M! 방어도를 얻습니다. NL *절망 1장을 버린 카드 더미에 추가합니다. NL 현재 고유 카드 !B! 장.",
+    "UPGRADE_DESCRIPTION": "덱의 고유한 카드 1장당 !M! 방어도를 얻습니다. NL 저주 카드로도 방어도를 얻습니다. NL *절망 1장을 버린 카드 더미에 추가합니다. NL 현재 고유 카드 !B! 장."
+  },
+
+
+
+  "Demon": {
+    "NAME": "악마",
+    "DESCRIPTION": "사용하려면 사역마 종류와 저주의 합이 15 이상이어야 합니다. NL 모든 적을 처치합니다. NL 합: !M! /15",
+    "UPGRADE_DESCRIPTION": "보존. NL 사용하려면 사역마 종류와 저주의 합이 15 이상이어야 합니다. NL 모든 적을 처치합니다. NL 합: !M! /15"
+  },
+  "Encircle": {
+    "NAME": "에워싸기",
+    "DESCRIPTION": "!D! 피해를 보유한 사역마 종류의 수만큼 가합니다. NL 사냥. NL 현재 공격 횟수 !M! 번."
+  },
+
+
+
+  "Ruin": {
+    "NAME": "멸망",
+    "DESCRIPTION": "모든 적에게 !D! 피해를 보유한 저주 수만큼 가합니다. NL 현재 저주 !M! 장 보유."
+  },
+  "Separate": {
+    "NAME": "분리",
+    "DESCRIPTION": "보유한 저주 수만큼 힘을 빼앗습니다. NL 소멸. NL 현재 저주 !M! 장 보유."
+  },
+  "Witch": {
+    "NAME": "마녀",
+    "DESCRIPTION": "보유한 저주 수만큼 힘을 얻습니다. NL 현재 저주 !M! 장 보유.",
+    "UPGRADE_DESCRIPTION": "선천성. NL 보유한 저주 수만큼 힘을 얻습니다. NL 현재 저주 !M! 장 보유."
+  },
+  "Mud": {
+    "NAME": "진흙탕",
+    "DESCRIPTION": "보유한 저주 수만큼 모든 적에게 약화와 취약을 부여합니다. NL 현재 저주 !M! 장 보유."
+  },
+
+
+
+  "No1": {
+    "NAME": "거만이",
+    "DESCRIPTION": "!D! 피해를 줍니다. NL !M! 취약을 얻습니다. NL 사역마."
+  },
+  "No2": {
+    "NAME": "소심이",
+    "DESCRIPTION": "!D! 피해를 줍니다. NL !M! 약화를 부여합니다. NL *부패 1장을 버린 카드 더미에 추가합니다. NL 사역마."
+  },
+  "No3": {
+    "NAME": "거짓말쟁이",
+    "DESCRIPTION": "!D! 피해를 줍니다. NL 의도를 바꿉니다. NL 사역마.",
+    "UPGRADE_DESCRIPTION": "보존. NL !D! 피해를 줍니다. NL 적의 의도를 바꿉니다. NL 사역마."
+  },
+  "No4": {
+    "NAME": "냉혈이",
+    "DESCRIPTION": "!M! 인공물을 얻습니다. NL 사역마."
+  },
+  "No5": {
+    "NAME": "떼쟁이",
+    "DESCRIPTION": "무작위 적에게 !D! 피해를 줍니다. NL 사역마."
+  },
+  "No6": {
+    "NAME": "욕쟁이",
+    "DESCRIPTION": "!D! 피해를 줍니다. NL !M! 포박을 부여합니다. NL *후회 1장을 버린 카드 더미에 추가합니다. NL 사역마."
+  },
+  "No7": {
+    "NAME": "느림보",
+    "DESCRIPTION": "!D! 피해를 줍니다. NL 보스가 아닌 대상에게서 무작위 버프를 제거합니다. NL 사역마.",
+    "UPGRADE_DESCRIPTION": "!D! 피해를 줍니다. NL 보스가 아닌 대상에게서 모든 버프를 제거합니다. NL 사역마."
+  },
+  "No8": {
+    "NAME": "질투쟁이",
+    "DESCRIPTION": "!D! 피해를 줍니다. NL 체력이 가장 높은 적을 공격합니다.  NL 사역마."
+  },
+  "No9": {
+    "NAME": "게으름뱅이",
+    "DESCRIPTION": "무작위 적에게 !M! 둔화를 부여합니다. NL 사역마.",
+    "UPGRADE_DESCRIPTION": "모든 적에게 !M! 둔화를 부여합니다. NL 사역마."
+  },
+  "No10": {
+    "NAME": "허세쟁이",
+    "DESCRIPTION": "!D! 피해를 줍니다. NL 보유한 골드 50당 !M! 피해를 줍니다. NL 사역마."
+  },
+  "No11": {
+    "NAME": "겁쟁이",
+    "DESCRIPTION": "!B! 방어도를 얻습니다. NL *수치 1장을 버린 카드 더미에 추가합니다. NL 사역마."
+  },
+  "No12": {
+    "NAME": "얼간이",
+    "DESCRIPTION": "뽑을 카드 더미에서 최대 !M! 장을 선택하여 버린 카드 더미로 옮깁니다. NL 사역마."
+  },
+  "No13": {
+    "NAME": "삐뚤이",
+    "DESCRIPTION": "!B! 방어도를 얻습니다. NL *규칙준수 1장을 버린 카드 더미에 추가합니다. NL 사역마."
+  },
+  "No14": {
+    "NAME": "고집통",
+    "DESCRIPTION": "보존. NL !D! 피해를 줍니다. NL 사역마."
+  },
+  "No15": {
+    "NAME": "사랑?",
+    "DESCRIPTION": "사용 불가. NL 이 카드를 뽑거나 버릴 때 [E] 를 얻습니다. NL 사역마.",
+    "UPGRADE_DESCRIPTION": "사용 불가. NL 이 카드를 뽑거나 버릴 때 [E] [E] 를 얻습니다. NL 사역마."
+  },
+
+
+
+
+  "MagicLongbow": {
+    "NAME": "마법의 활",
+    "DESCRIPTION": "보존. NL !D! 피해를 줍니다. NL 적의 의도를 바꿉니다."
+  },
+  "ModifyMemory": {
+    "NAME": "기억 조작",
+    "DESCRIPTION": "보존. NL 적의 의도를 바꿉니다."
+  },
+  "Puzzle": {
+    "NAME": "퍼즐",
+    "DESCRIPTION": "!B! 방어도를 얻습니다. NL 이 카드를 덱에 추가하면 덱의 다른 퍼즐이 제거되고 제거된 퍼즐의 방어도만큼 이 카드의 방어도가 증가합니다."
+  },
+  "Coercion": {
+    "NAME": "강압",
+    "DESCRIPTION": " !M! % 확률로 보스가 아닌 적을 도망치게 하고 30 골드를 얻습니다. NL 대상이 잃은 체력의 비율만큼 성공률이 증가합니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "보존. NL !M! % 확률로 보스가 아닌 적을 도망치게 하고 30 골드를 얻습니다. NL 대상이 잃은 체력의 비율만큼 성공률이 증가합니다. NL 소멸."
+  },
+
+
+
+
+
+  "CauseAndEffect": {
+    "NAME": "인과율",
+    "DESCRIPTION": "사용 불가. NL 덱에서 제거할 수 없습니다. NL 현재 도르마무 !M! 회."
+  },
+  "Despair": {
+    "NAME": "절망",
+    "DESCRIPTION": "사용 불가. NL 턴 종료 시 도르마무 횟수만큼 체력을 잃습니다. NL 현재 !M! 체력을 잃습니다."
+  }
+}

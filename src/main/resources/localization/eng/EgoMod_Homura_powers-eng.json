@@ -1,0 +1,114 @@
+{
+  "LawOfCyclesPower": {
+    "NAME": "Law Of Cycles",
+    "DESCRIPTIONS": [
+      "Whenever you draw a Curse, Exhaust it, then add #b",
+      " Miracle into your hand."
+    ]
+  },
+  "DemonPower": {
+    "NAME": "Demon",
+    "DESCRIPTIONS": [
+      "At the end of your turn, gain #b",
+      " Strength for each Curse you have."
+    ]
+  },
+  "M18A1Power": {
+    "NAME": "Mines",
+    "DESCRIPTIONS": [
+      "Whenever you are attacked, deal equal damage back. Removed after #b ",
+      " attack."
+    ]
+  },
+  "BombMakingPower": {
+    "NAME": "Bomb Making",
+    "DESCRIPTIONS": [
+      "At the start of your turn, add #b",
+      " IED into your hand."
+    ]
+  },
+  "BombMakingUpPower": {
+    "NAME": "Bomb Making+",
+    "DESCRIPTIONS": [
+      "At the start of your turn, add #b",
+      " IED+ into your hand."
+    ]
+  },
+  "ClocksPower": {
+    "NAME": "Clock",
+    "DESCRIPTIONS": [
+      "Every time you play 12 cards, add #b",
+      " Vault into your hand."
+    ]
+  },
+  "ClocksUpPower": {
+    "NAME": "Clock+",
+    "DESCRIPTIONS": [
+      "Every time you play 12 cards, add #b",
+      " Vault+ into your hand."
+    ]
+  },
+  "StockPower": {
+    "NAME": "Stock Up",
+    "DESCRIPTIONS": [
+      "At the start of your turn, add #b",
+      " random Arm into your hand."
+    ]
+  },
+  "StockUpPower": {
+    "NAME": "Stock Up+",
+    "DESCRIPTIONS": [
+      "At the start of your turn, add #b",
+      " random Upgraded Arm into your hand."
+    ]
+  },
+  "StaminaPower": {
+    "NAME": "Stamina",
+    "DESCRIPTIONS": [
+      "When you play an Attack, draw #b",
+      " random Skill from your draw pile. When you play a Skill, draw #b",
+      " random Attack from your draw pile."
+    ]
+  },
+  "FalseTownPower": {
+    "NAME": "False Town",
+    "DESCRIPTIONS": [
+      "At the start of your turn, add #b",
+      " new Servant to your draw pile and add #b",
+      " random Curse to your discard pile."
+    ]
+  },
+  "ZeroEnergePower": {
+    "NAME": "Time Stop",
+    "DESCRIPTIONS": [
+      "Your next card costs 0."
+    ]
+  },
+  "MoveAndFirePower": {
+    "NAME": "Run and Gun",
+    "DESCRIPTIONS": [
+      "Whenever you play an Attack, gain #b",
+      " Block."
+    ]
+  },
+  "TwiningPower": {
+    "NAME": "Twining",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain #b",
+      " Energy."
+    ]
+  },
+  "UntiePower": {
+    "NAME": "Untie",
+    "DESCRIPTIONS": [
+      "Immune to Weak, Vulnerable and Frail."
+    ]
+  },
+  "TimeBombPower": {
+    "NAME": "TimeBomb",
+    "DESCRIPTIONS": [
+      "At end of turn take #b",
+      " damage"
+    ]
+  }
+}

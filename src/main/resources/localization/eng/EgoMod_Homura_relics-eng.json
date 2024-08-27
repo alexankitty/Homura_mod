@@ -1,0 +1,30 @@
+{
+  "MetalShield": {
+    "NAME": "Metal Shield",
+    "FLAVOR": "Running back into your own little time again, huh? That's a bad habit of yours.",
+    "DESCRIPTIONS": [
+      "Right click :Consume 6 charge, the next card you play costs 0 this turn.(gain 1 charge at the start of your turn, up to 12) NL Gain 2 Potion slots."
+    ]
+  },
+  "Mami": {
+    "NAME": "Mami's Head",
+    "FLAVOR": "There's nothing to be afraid of...",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. At the end of your turn, you have 10% chance to gain 1 #rVulnerable."
+    ]
+  },
+  "BlackLongbow": {
+    "NAME": "Black Longbow",
+    "FLAVOR": "Sadness and hatred are constantly staged in this hopeless world.",
+    "DESCRIPTIONS": [
+      "Replaces #rMetal #rShield. At the start of your turn random trigger a effects: NL Gain [E] . NL Random enemy lose 1 Strength. NL Remove a random buff from enemy."
+    ]
+  },
+  "SoulGem_Demon": {
+    "NAME": "Demon SoulGem",
+    "FLAVOR": "What is hotter than hope and deeper than despair is love!",
+    "DESCRIPTIONS": [
+      "Replaces #rMetal #rShield. The first time you play Servant card each turn, gain [E] . NL When you draw Servant card, draw 1 card. NL Whenever you draw #rCurse, exhaust it, At the end of your turn add same amount Servant card you don't have into the discard pile."
+    ]
+  }
+}

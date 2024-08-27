@@ -1,0 +1,35 @@
+{
+  "keywords": [
+    {
+      "NAMES": [
+        "投掷"
+      ],
+      "DESCRIPTION": "丢弃时打出这张牌。 NL 消耗 。"
+    },
+    {
+      "NAMES": [
+        "反坦克"
+      ],
+      "DESCRIPTION": "对有护甲的敌人造成 2 倍基础伤害。 NL 消耗 。"
+    },
+    {
+      "NAMES": [
+        "猎杀"
+      ],
+      "DESCRIPTION": "对爪牙造成 2 倍基础伤害。"
+    },
+    {
+      "NAMES": [
+        "使魔"
+      ],
+      "DESCRIPTION": "丢弃时打出这张牌。"
+    },
+    {
+      "NAMES": [
+        "军火"
+      ],
+      "DESCRIPTION": "如果你有送货员、会员卡、微笑面具或MerchantsRug，你可以通过移除卡牌向商人出售这张牌。(不计入删牌)"
+    }
+  ]
+
+}

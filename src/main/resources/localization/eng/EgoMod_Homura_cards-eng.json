@@ -1,0 +1,391 @@
+{
+  "Strike_Homura": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "Defend_Homura": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "Throw": {
+    "NAME": "Throw",
+    "DESCRIPTION": "Retain. NL Discard !M! card. NL Draw !M! card.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Discard !M! cards. NL Draw !M! cards."
+  },
+  "IED": {
+    "NAME": "IED",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Throw. NL Arm."
+  },
+  "DesertEagle": {
+    "NAME": "Desert Eagle",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable. NL Arm."
+  },
+
+
+
+
+
+
+
+  "BombMaking": {
+    "NAME": "Bomb Making",
+    "DESCRIPTION": "At the start of your turn, add an *IED into your hand.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, add an *IED+ into your hand."
+  },
+  "FlashBang": {
+    "NAME": "Flashbang",
+    "DESCRIPTION": "Apply !M! Weak and Vulnerable to ALL enemies. NL Throw. NL Arm."
+  },
+  "TimeBomb": {
+    "NAME": "TimeBomb",
+    "DESCRIPTION": "At the end of enemy turn, deal !M! damage. NL Throw. NL Arm."
+  },
+  "Smoke": {
+    "NAME": "Smoke Bomb",
+    "DESCRIPTION": "Gain !B! Block. NL Apply !M! Weak to ALL enemies. NL Throw. NL Arm."
+  },
+  "M84": {
+    "NAME": "Shock Bomb",
+    "DESCRIPTION": "Stun a random enemy. NL Throw. NL Arm.",
+    "UPGRADE_DESCRIPTION": "Stun ALL enemies. NL Throw. NL Arm."
+  },
+  "FireExtinguisher": {
+    "NAME": "Fire Extinguisher",
+    "DESCRIPTION": "Gain 1 Intangible. NL Throw.",
+    "UPGRADE_DESCRIPTION": "Gain 1 Intangible. NL Remove all of your debuffs. NL Throw."
+  },
+
+
+
+  "M18A1": {
+    "NAME": "Mines",
+    "DESCRIPTION": "The next !M! times you are attacked, deal equal damage back. NL Exhaust. NL Arm."
+  },
+  "M249": {
+    "NAME": "M249",
+    "DESCRIPTION": "Deal !D! damage to a random enemy !M! times. NL Arm."
+  },
+  "M870": {
+    "NAME": "M870",
+    "DESCRIPTION": "Deal !D! damage !M! times. Apply 1 Weak and Vulnerable !M! times. NL Arm."
+  },
+  "M92": {
+    "NAME": "Empty Magazine",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Exhaust. NL Arm."
+  },
+  "Flash": {
+    "NAME": "Flash",
+    "DESCRIPTION": "Gain !B! Block. NL Draw !M! card. NL Discard 1 card.",
+	"UPGRADE_DESCRIPTION": "Gain !B! Block. NL Draw !M! cards. NL Discard 1 card."
+  },
+  "SwivelThrow": {
+    "NAME": "Swivel Throw",
+    "DESCRIPTION": "Gain !B! Block. NL Put a card from your draw pile into your hand. NL Discard 1 card."
+  },
+  "LiftHair": {
+    "NAME": "Hair Flip",
+    "DESCRIPTION": "Draw !M! card. NL Discard !M! card.",
+    "UPGRADE_DESCRIPTION": "Draw !M! cards. NL Discard !M! cards."
+  },
+  "Reload": {
+    "NAME": "Reload",
+    "DESCRIPTION": "Discard any number of cards, then draw that many cards. NL Shuffle your discard pile into your draw pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Discard any number of cards, then draw that many cards. NL Shuffle your discard pile into your draw pile."
+  },
+
+
+
+  "FuelTankCar": {
+    "NAME": "Fuel Tank",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak and Vulnerable. NL Anti-tank. NL Arm."
+  },
+  "SSM1": {
+    "NAME": "SSM1",
+    "DESCRIPTION": "Deal !D! damage to a random enemy 6 times. NL Anti-tank. NL Arm."
+  },
+  "AT4": {
+    "NAME": "AT4",
+    "DESCRIPTION": "Deal !D! damage. NL Anti-tank. NL Arm."
+  },
+
+
+
+  "DodgeShot": {
+    "NAME": "Evasive Shot",
+    "DESCRIPTION": "Discard !M! card. NL Gain !B! Block. NL Deal !D! damage."
+  },
+  "Mercy": {
+    "NAME": "Mercy",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy intends to attack, deal !M!x basic damage, otherwise apply !M! Weak."
+  },
+  "Clean": {
+    "NAME": "Cleanup",
+    "DESCRIPTION": "Deal !D! damage. NL If this kills an enemy, add a copy of it into your hand. NL It costs 0 this turn. NL Hunt."
+  },
+  "Hunt": {
+    "NAME": "Hunt",
+    "DESCRIPTION": "Deal !D! damage. NL Draw !M! card. NL Hunt."
+  },
+  "Kick": {
+    "NAME": "Kick",
+    "DESCRIPTION": "Deal !D! damage. NL Enemy loses Strength this turn equal to unblocked damage dealt."
+  },
+  "GunsWorkBetterThanMagic": {
+    "NAME": "Guns Work Better",
+    "DESCRIPTION": "Add X random Arms into your hand. NL They cost 0 this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add X random Upgraded Arms into your hand. NL They cost 0 this turn. NL Exhaust."
+  },
+
+
+  "Detonate": {
+    "NAME": "Detonate",
+    "DESCRIPTION": "Retain. NL Choose !M! Exhaust card in your discard pile. NL Play the chosen card."
+  },
+  "Prepare": {
+    "NAME": "Prepare",
+    "DESCRIPTION": "Next turn, draw !M! additional cards. NL Arm."
+  },
+  "GrandEntrance": {
+    "NAME": "Grand Entrance",
+    "DESCRIPTION": "Innate. NL Can only be played if no other cards were played this turn. NL Draw !M! cards. NL Exhaust."
+  },
+  "Rush": {
+    "NAME": "Rush",
+    "DESCRIPTION": "Draw !M! cards."
+  },
+  "Confrontation": {
+    "NAME": "Confrontation",
+    "DESCRIPTION": "Gain !B! Block. NL End your turn."
+  },
+  "TimeStop": {
+    "NAME": "Time Stop",
+    "DESCRIPTION": "Retain. NL The next card you play costs 0 this turn."
+  },
+  "Pretend": {
+    "NAME": "Pretend",
+    "DESCRIPTION": "The next card you play costs 0 this turn. NL Remove all of your debuffs. NL Lose !M! HP.",
+    "UPGRADE_DESCRIPTION": "Retain. NL The next card you play costs 0 this turn. NL Remove all of your debuffs. NL Lose !M! HP."
+  },
+  "Treatment": {
+    "NAME": "Purify",
+    "DESCRIPTION": "Exhaust all of your Status. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Exhaust all of your Status. NL Exhaust."
+  },
+  "Production": {
+    "NAME": "Mass Production",
+    "DESCRIPTION": "Choose an Arm card. Add copies of that card into your hand until your hand is full. NL Exhaust."
+  },
+
+
+
+
+
+  "Untie": {
+    "NAME": "Untie",
+    "DESCRIPTION": "Become immune to Weak, Vulnerable and Frail."
+  },
+  "Clocks": {
+    "NAME": "Clock",
+    "DESCRIPTION": "Every time you play 12 cards, add a *Vault into your hand.",
+    "UPGRADE_DESCRIPTION": "Every time you play 12 cards, add a *Vault+ into your hand."
+  },
+  "MoveAndFire": {
+    "NAME": "Run and Gun",
+    "DESCRIPTION": "Whenever you play an Attack, gain !M! Block."
+  },
+  "Stock": {
+    "NAME": "Stock Up",
+    "DESCRIPTION": "At the start of your turn, add a random Arm into your hand.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, add a random Upgraded Arm into your hand."
+  },
+  "Stamina": {
+    "NAME": "Stamina",
+    "DESCRIPTION": "When you play an Attack, draw a random Skill from your draw pile. NL When you play a Skill, draw a random Attack from your draw pile."
+  },
+  "RedRibbon": {
+    "NAME": "Red Hair Band",
+    "DESCRIPTION": "At the end of your turn, Retain up to 1 card.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the end of your turn, Retain up to 1 card."
+  },
+  "FalseTown": {
+    "NAME": "False Town",
+    "DESCRIPTION": "At the start of your turn, add !M! new Servant to your draw pile and add !M! random Curse to your discard pile.",
+	"UPGRADE_DESCRIPTION": "Innate. NL At the start of your turn, add !M! new Servant to your draw pile and add !M! random Curse to your discard pile."
+  },
+  "LawOfCycles": {
+    "NAME": "Law of Cycles",
+    "DESCRIPTION": "Whenever you draw a Curse, Exhaust it, then add a *Miracle into your hand."
+  },
+
+
+
+  "ThePriceOfMiracles": {
+    "NAME": "The Price of Miracles",
+    "DESCRIPTION": "Add !M! *Miracles into your hand. NL Add a random Curse into your discard pile."
+  },
+  "Feeding": {
+    "NAME": "Feeding",
+    "DESCRIPTION": "Exhaust 1 card. NL If it was a Curse, draw 1 card and gain [E]. NL If it was a Status, draw 2 cards. NL Otherwise, draw 1 card."
+  },
+  "Contract": {
+    "NAME": "Contract",
+    "DESCRIPTION": "Add a *Wish to your hand. NL It costs 0 this turn. NL Add a random Curse to your discard pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add a *Wish+ to your hand. NL It costs 0 this turn. NL Add a random Curse to your discard pile. NL Exhaust."
+	
+  },
+  "Hope": {
+    "NAME": "Hope",
+    "DESCRIPTION": "Heal !M! HP. NL Add a *Despair into your discard pile. NL Exhaust."
+  },
+  "Maze": {
+    "NAME": "Maze",
+    "DESCRIPTION": "Draw 1 card for each SaveLoad. NL Add a *Despair into your discard pile. NL Exhaust. NL !M! SaveLoads.",
+    "UPGRADE_DESCRIPTION": "Draw 1 card for each SaveLoad. NL Add a *Despair into your discard pile. NL !M! SaveLoads."
+  },
+  "Strong": {
+    "NAME": "Stronger",
+    "DESCRIPTION": "Lose 1 HP and gain 1 Strength for each SaveLoad. NL !M! SaveLoads."
+  },
+  "Twining": {
+    "NAME": "Twining",
+    "DESCRIPTION": "Gain 1 Constricted for each SaveLoad. NL At the start of your turn, gain [E]. NL !M! SaveLoads."
+  },
+  "Alone": {
+    "NAME": "Alone",
+    "DESCRIPTION": "Gain !M! Block for each unique card in your deck. NL Add a *Despair into your discard pile. NL !B! unique cards.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Block for each unique card in your deck. NL Curses add additional Block. NL Add a *Despair into your discard pile. NL !B! unique cards."
+  },
+
+
+
+  "Demon": {
+    "NAME": "Demon",
+    "DESCRIPTION": "Playable with 15+ types of Servants and Curses. NL Destroy all normal enemies. NL Deal !D! x !M! damage to bosses and elites instead. NL Total: !M!/ 15",
+    "UPGRADE_DESCRIPTION": "Retain. Playable with 15+ types of Servants and Curses. NL Destroy all normal enemies. NL Deal !D! x !M! damage to bosses and elites instead. NL Total: !M!/ 15"
+  },
+  "Encircle": {
+    "NAME": "Encircle",
+    "DESCRIPTION": "Deal !D! damage for each kind of Servant. NL Hunt. NL !M! Servant kinds."
+  },
+
+
+
+  "Ruin": {
+    "NAME": "Ruin",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies for each Curse card you have. NL !M! Curse cards."
+  },
+  "Separate": {
+    "NAME": "Separate",
+    "DESCRIPTION": "Steal 1 Strength for each Curse card you have. NL Exhaust. NL !M! Curse cards."
+  },
+  "Witch": {
+    "NAME": "Witch",
+    "DESCRIPTION": "Gain 1 Strength for each Curse card you have. NL !M! Curse cards.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Gain 1 Strength for each Curse card you have. NL !M! Curse cards."
+  },
+  "Mud": {
+    "NAME": "Mud",
+    "DESCRIPTION": "Apply 1 Weak and Vulnerable to ALL enemies for each Curse card you have. NL !M! Curse cards."
+  },
+
+
+
+  "No1": {
+    "NAME": "Arrogance",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! Vulnerable. NL Servant."
+  },
+  "No2": {
+    "NAME": "Gloomy",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak. NL Add a *Decay into your discard pile. NL Servant."
+  },
+  "No3": {
+    "NAME": "Lie",
+    "DESCRIPTION": "Deal !D! damage. NL Switch the enemy's intention. NL Servant.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Deal !D! damage. NL Switch the enemy's intention. NL Servant."
+  },
+  "No4": {
+    "NAME": "Cold",
+    "DESCRIPTION": "Gain !M! Artifact. NL Servant."
+  },
+  "No5": {
+    "NAME": "Willful",
+    "DESCRIPTION": "Deal !D! damage to a random enemy. NL Servant."
+  },
+  "No6": {
+    "NAME": "Sharp Tongue",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Constricted. NL Add a *Regret into your discard pile. NL Servant."
+  },
+  "No7": {
+    "NAME": "Dull",
+    "DESCRIPTION": "Deal !D! damage. NL Remove a random buff from your target if it is not a boss enemy. NL Servant.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Remove all buffs from your target if it is not a boss enemy. NL Servant."
+  },
+  "No8": {
+    "NAME": "Jealousy",
+    "DESCRIPTION": "Deal !D! damage to the enemy with the most HP. NL Servant."
+  },
+  "No9": {
+    "NAME": "Lazy",
+    "DESCRIPTION": "Apply !M! Slow to a random enemy. NL Servant.",
+    "UPGRADE_DESCRIPTION": "Apply !M! Slow to ALL enemies. NL Servant."
+  },
+  "No10": {
+    "NAME": "Vanity",
+    "DESCRIPTION": "Deal !D! damage. NL Deal !M! damage for every 50 Gold you have. NL Servant."
+  },
+  "No11": {
+    "NAME": "Cowardice",
+    "DESCRIPTION": "Gain !B! Block. NL Add a *Shame into your discard pile. NL Servant."
+  },
+  "No12": {
+    "NAME": "Stupid",
+    "DESCRIPTION": "Choose your draw pile at most !M! cards into the discard pile. NL Servant."
+  },
+  "No13": {
+    "NAME": "Grumpy",
+    "DESCRIPTION": "Gain !B! Block. NL Add a *Normality into your discard pile.  NL Servant."
+  },
+  "No14": {
+    "NAME": "Stubborn",
+    "DESCRIPTION": "Retain. NL Deal !D! damage. NL Servant."
+  },
+  "No15": {
+    "NAME": "Love？",
+    "DESCRIPTION": "Unplayable. NL When you draw or discard this card, gain [E]. NL Servant.",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL When you draw or discard this card, gain [E] [E]. NL Servant."
+  },
+
+
+
+
+  "MagicLongbow": {
+    "NAME": "Magic Longbow",
+    "DESCRIPTION": "Retain. NL Deal !D! damage. NL Switch the enemy's intention."
+  },
+  "ModifyMemory": {
+    "NAME": "Modify Memory",
+    "DESCRIPTION": "Retain. NL Switch the enemy's intention."
+  },
+  "Puzzle": {
+    "NAME": "Puzzle",
+    "DESCRIPTION": "Gain !B! Block. NL Upon adding this card to your deck, remove other Puzzles from your deck and permanently increase this card's Block by the Block removed."
+  },
+  "Coercion": {
+    "NAME": "Coercion",
+    "DESCRIPTION": " !M!% chance to force the non-Boss enemy to escape and gain 30 Gold. NL For each % Max HP lost, increase chance by 1%. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL !M!% chance to force the non-Boss enemy to escape and gain 30 Gold. NL For each % Max HP lost, increase chance by 1%. NL Exhaust."
+  },
+
+
+
+
+
+  "CauseAndEffect": {
+    "NAME": "Cause and Effect",
+    "DESCRIPTION": "Unplayable. NL Cannot be removed from your deck. NL You've been SaveLoads !M! times."
+  },
+  "Despair": {
+    "NAME": "Despair",
+    "DESCRIPTION": "Unplayable. NL At the end of your turn, lose HP equal to the number of SaveLoads. NL lose !M! HP."
+  }
+}

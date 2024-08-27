@@ -1,0 +1,9 @@
+{
+  "GriefSeed": {
+    "NAME": "Grief Seed",
+    "DESCRIPTIONS": [
+      "Heal for #b",
+      "% of your Max HP. NL Remove all of your debuffs."
+    ]
+  }
+}

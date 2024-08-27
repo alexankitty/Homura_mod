@@ -1,0 +1,223 @@
+
+Homura_1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pendant2
+  rotate: false
+  xy: 226, 1
+  size: 30, 73
+  orig: 30, 73
+  offset: 0, 0
+  index: -1
+pendant1
+  rotate: false
+  xy: 195, 1
+  size: 29, 78
+  orig: 29, 78
+  offset: 0, 0
+  index: -1
+BackHead
+  rotate: false
+  xy: 153, 131
+  size: 57, 88
+  orig: 57, 88
+  offset: 0, 0
+  index: -1
+LeftBackHair
+  rotate: false
+  xy: 1, 1
+  size: 78, 125
+  orig: 78, 125
+  offset: 0, 0
+  index: -1
+RightBackHair
+  rotate: false
+  xy: 1, 128
+  size: 67, 123
+  orig: 67, 123
+  offset: 0, 0
+  index: -1
+shin2
+  rotate: false
+  xy: 282, 1
+  size: 32, 51
+  orig: 32, 51
+  offset: 0, 0
+  index: -1
+foot2
+  rotate: false
+  xy: 342, 1
+  size: 18, 17
+  orig: 18, 17
+  offset: 0, 0
+  index: -1
+thigh2
+  rotate: false
+  xy: 282, 54
+  size: 26, 61
+  orig: 26, 61
+  offset: 0, 0
+  index: -1
+shin1
+  rotate: false
+  xy: 310, 197
+  size: 19, 52
+  orig: 19, 52
+  offset: 0, 0
+  index: -1
+foot1
+  rotate: false
+  xy: 341, 49
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1
+thigh1
+  rotate: false
+  xy: 212, 191
+  size: 42, 60
+  orig: 42, 60
+  offset: 0, 0
+  index: -1
+skirt
+  rotate: false
+  xy: 70, 200
+  size: 71, 41
+  orig: 71, 41
+  offset: 0, 0
+  index: -1
+LowerBody
+  rotate: false
+  xy: 256, 191
+  size: 40, 58
+  orig: 40, 58
+  offset: 0, 0
+  index: -1
+UpperBody
+  rotate: false
+  xy: 152, 1
+  size: 41, 68
+  orig: 41, 68
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 316, 29
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+UpperArm2
+  rotate: false
+  xy: 240, 84
+  size: 28, 34
+  orig: 28, 34
+  offset: 0, 0
+  index: -1
+LowerArm2
+  rotate: false
+  xy: 316, 1
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+UpperArm1
+  rotate: false
+  xy: 201, 81
+  size: 37, 43
+  orig: 37, 43
+  offset: 0, 0
+  index: -1
+hand(soulgem)
+  rotate: false
+  xy: 339, 29
+  size: 21, 18
+  orig: 21, 18
+  offset: 0, 0
+  index: -1
+LowerArm1
+  rotate: false
+  xy: 310, 84
+  size: 35, 22
+  orig: 35, 22
+  offset: 0, 0
+  index: -1
+shield
+  rotate: false
+  xy: 310, 54
+  size: 29, 28
+  orig: 29, 28
+  offset: 0, 0
+  index: -1
+collar
+  rotate: false
+  xy: 143, 221
+  size: 49, 33
+  orig: 49, 33
+  offset: 0, 0
+  index: -1
+pendant4
+  rotate: false
+  xy: 270, 84
+  size: 10, 35
+  orig: 10, 35
+  offset: 0, 0
+  index: -1
+pendant5
+  rotate: false
+  xy: 298, 197
+  size: 7, 37
+  orig: 7, 37
+  offset: 0, 0
+  index: -1
+pendant3
+  rotate: false
+  xy: 152, 118
+  size: 19, 10
+  orig: 19, 10
+  offset: 0, 0
+  index: -1
+RightHair
+  rotate: false
+  xy: 298, 117
+  size: 17, 78
+  orig: 17, 78
+  offset: 0, 0
+  index: -1
+LeftBackHair1
+  rotate: false
+  xy: 81, 1
+  size: 69, 128
+  orig: 69, 128
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 212, 131
+  size: 76, 58
+  orig: 76, 58
+  offset: 0, 0
+  index: -1
+FrontHair
+  rotate: false
+  xy: 70, 131
+  size: 81, 67
+  orig: 81, 67
+  offset: 0, 0
+  index: -1
+expression
+  rotate: false
+  xy: 152, 81
+  size: 47, 35
+  orig: 47, 35
+  offset: 0, 0
+  index: -1
+LeftHair
+  rotate: false
+  xy: 258, 1
+  size: 22, 81
+  orig: 22, 81
+  offset: 0, 0
+  index: -1
