@@ -1,47 +1,47 @@
-/*    */ package powers;
-/*    */ import com.badlogic.gdx.graphics.Texture;
+package powers;
+import com.badlogic.gdx.graphics.Texture;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.localization.PowerStrings;
-/*    */ import com.megacrit.cardcrawl.powers.AbstractPower;
-/*    */ import patches.Patch;
-/*    */ 
-/*    */ public class StockUpPower extends AbstractPower {
-/* 13 */   private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings("StockUpPower"); public static final String POWER_ID = "StockUpPower";
-/* 14 */   public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
-/*    */   
-/*    */   public StockUpPower(AbstractCreature owner, int amount) {
-/* 17 */     this.name = powerStrings.NAME;
-/* 18 */     this.ID = "StockUpPower";
-/* 19 */     this.owner = owner;
-/* 20 */     this.img = new Texture("img/powers/StockPower32.png");
-/* 21 */     this.type = AbstractPower.PowerType.BUFF;
-/* 22 */     this.amount = amount;
-/* 23 */     updateDescription();
-/*    */   }
-/*    */ 
-/*    */ 
-/*    */   
-/*    */   public void atStartOfTurn() {
-/* 29 */     flash();
-/* 30 */     AbstractCard[] ArmsGroup = Patch.getArmsCard();
-/*    */     
-/* 32 */     for (int i = 0; i < this.amount; i++) {
-/* 33 */       AbstractCard c = ArmsGroup[AbstractDungeon.cardRandomRng.random(ArmsGroup.length - 1)];
-/* 34 */       c.upgrade();
-/* 35 */       addToBot((AbstractGameAction)new MakeTempCardInHandAction(c, 1));
-/*    */     } 
-/*    */   }
-/*    */ 
-/*    */   
-/*    */   public void updateDescription() {
-/* 41 */     this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1];
-/*    */   }
-/*    */ }
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.PowerStrings;
+import com.megacrit.cardcrawl.powers.AbstractPower;
+import patches.Patch;
+
+public class StockUpPower extends AbstractPower {
+  private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings("StockUpPower"); public static final String POWER_ID = "StockUpPower";
+  public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
+  
+  public StockUpPower(AbstractCreature owner, int amount) {
+    this.name = powerStrings.NAME;
+    this.ID = "StockUpPower";
+    this.owner = owner;
+    this.img = new Texture("img/powers/StockPower32.png");
+    this.type = AbstractPower.PowerType.BUFF;
+    this.amount = amount;
+    updateDescription();
+  }
+
+
+  
+  public void atStartOfTurn() {
+    flash();
+    AbstractCard[] ArmsGroup = Patch.getArmsCard();
+    
+    for (int i = 0; i < this.amount; i++) {
+      AbstractCard c = ArmsGroup[AbstractDungeon.cardRandomRng.random(ArmsGroup.length - 1)];
+      c.upgrade();
+      addToBot((AbstractGameAction)new MakeTempCardInHandAction(c, 1));
+    } 
+  }
+
+  
+  public void updateDescription() {
+    this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1];
+  }
+}
 
 
 /* Location:              /mnt/nyoom/SteamLibrary/steamapps/workshop/content/646570/2640024018/Homura_mod.jar!/powers/StockUpPower.class
