@@ -260,8 +260,8 @@
 
   "Demon": {
     "NAME": "Demon",
-    "DESCRIPTION": "Playable with 15+ types of Servants and Curses. NL Destroy all normal enemies. NL Deal !D! x !M! damage to bosses and elites instead. NL Total: !M!/ 15",
-    "UPGRADE_DESCRIPTION": "Retain. Playable with 15+ types of Servants and Curses. NL Destroy all normal enemies. NL Deal !D! x !M! damage to bosses and elites instead. NL Total: !M!/ 15"
+    "DESCRIPTION": "Playable with a combination of 15+ Curses and Servant types. NL Deal !D! x !M! damage. NL Instant kill normal enemies that would have 30 or less HP. NL Total: !M!/ 15",
+    "UPGRADE_DESCRIPTION": "Retain. Playable with a combination of 15+ Curses and Servant types. NL Deal !D! x !M! damage. NL Instant kill normal enemies that would have 30 or less HP. NL Total: !M!/ 15"
   },
   "Encircle": {
     "NAME": "Encircle",

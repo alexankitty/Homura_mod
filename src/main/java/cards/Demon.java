@@ -45,22 +45,22 @@ public class Demon extends CustomCard {
     if (HomuraMod.isSchoolUniform || HomuraMod.isMagicalGirl) {
       addToBot((AbstractGameAction)new ChangeStanceAction((AbstractStance)new DemonStance()));
     }
-             int hitCount = Patch.countServantNum() + Patch.countCurse();
+    int hitCount = Patch.countServantNum() + Patch.countCurse();
+    int potentialDamage = hitCount * this.damage;
     addToBot((AbstractGameAction)new VFXAction((AbstractGameEffect)new GrandFinalEffect(), 1.0F));
     for (AbstractMonster mo : (AbstractDungeon.getCurrRoom()).monsters.monsters) {
       if (mo.currentHealth > 0) {
         for (int i = 0; i < 3; i++) {
           addToBot((AbstractGameAction)new WaitAction(0.1F));
         }
-                if(mo.type != AbstractMonster.EnemyType.NORMAL){
-
-                    for (int i = 0; i < hitCount; i++) {
-                        addToBot((AbstractGameAction)new DamageAction((AbstractCreature)mo, new DamageInfo((AbstractCreature)p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.FIRE));
-                    }
-                }
-                else{
-                    addToBot((AbstractGameAction)new InstantKillAction((AbstractCreature)mo));
-                }
+          if(mo.type != AbstractMonster.EnemyType.NORMAL || mo.currentHealth > (potentialDamage + 30)){
+              for (int i = 0; i < hitCount; i++) {
+                  addToBot((AbstractGameAction)new DamageAction((AbstractCreature)mo, new DamageInfo((AbstractCreature)p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.FIRE));
+              }
+          }
+          else{
+              addToBot((AbstractGameAction)new InstantKillAction((AbstractCreature)mo));
+          }
       }
     } 
   }
