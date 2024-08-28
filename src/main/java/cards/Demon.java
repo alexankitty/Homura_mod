@@ -83,35 +83,22 @@ public class Demon extends CustomCard {
           mo.currentHealth > (potentialDamage + 30)
         ) {
           doDamage = true;
-          /*for (int i = 0; i < hitCount; i++) {
-            addToBot(
-              (AbstractGameAction) new DamageAction(
-                (AbstractCreature) mo,
-                new DamageInfo(
-                  (AbstractCreature) p,
-                  this.damage,
-                  this.damageTypeForTurn
-                ),
-                AbstractGameAction.AttackEffect.FIRE
-              )
-            );*/
-
-          }
         } else {
           addToBot(
             (AbstractGameAction) new InstantKillAction((AbstractCreature) mo)
           );
         }
       }
-    if(doDamage) {
+    }
+    if (doDamage) {
       for (int i = 0; i < hitCount; i++) {
         addToBot(
-                (AbstractGameAction) new DamageAllEnemiesAction(
-                        (AbstractCreature) p,
-                        this.multiDamage,
-                        this.damageTypeForTurn,
-                        AbstractGameAction.AttackEffect.FIRE
-                )
+          (AbstractGameAction) new DamageAllEnemiesAction(
+            (AbstractCreature) p,
+            this.multiDamage,
+            this.damageTypeForTurn,
+            AbstractGameAction.AttackEffect.FIRE
+          )
         );
       }
     }
