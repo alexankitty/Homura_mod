@@ -1,4 +1,5 @@
 package cards;
+
 import EgoMod.AbstractCardEnum;
 import action.GunsWorkBetterThanMagicAction;
 import basemod.abstracts.CustomCard;
@@ -13,29 +14,49 @@ import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 import patches.Patch;
 
 public class GunsWorkBetterThanMagic extends CustomCard {
-  private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("GunsWorkBetterThanMagic"); public static final String ID = "GunsWorkBetterThanMagic";
+
+  private static final CardStrings cardStrings =
+    CardCrawlGame.languagePack.getCardStrings("GunsWorkBetterThanMagic");
+  public static final String ID = "GunsWorkBetterThanMagic";
   public static final String NAME = cardStrings.NAME;
   public static final String DESCRIPTION = cardStrings.DESCRIPTION;
   private static final int COST = -1;
-  public static final String IMG_PATH = "img/cards/GunsWorkBetterThanMagic_skill.png";
+  public static final String IMG_PATH =
+    "img/cards/GunsWorkBetterThanMagic_skill.png";
   private float rotationTimer = 0.0F;
   private int previewIndex = 0;
+
   public GunsWorkBetterThanMagic() {
-    super("GunsWorkBetterThanMagic", NAME, "img/cards/GunsWorkBetterThanMagic_skill.png", -1, DESCRIPTION, AbstractCard.CardType.SKILL, AbstractCardEnum.Homura_COLOR, AbstractCard.CardRarity.RARE, AbstractCard.CardTarget.SELF);
+    super(
+      "GunsWorkBetterThanMagic",
+      NAME,
+      "img/cards/GunsWorkBetterThanMagic_skill.png",
+      -1,
+      DESCRIPTION,
+      AbstractCard.CardType.SKILL,
+      AbstractCardEnum.Homura_COLOR,
+      AbstractCard.CardRarity.RARE,
+      AbstractCard.CardTarget.SELF
+    );
     this.exhaust = true;
   }
-
 
   public void use(AbstractPlayer p, AbstractMonster m) {
     if (this.energyOnUse < EnergyPanel.totalCount) {
       this.energyOnUse = EnergyPanel.totalCount;
     }
-    addToBot((AbstractGameAction)new GunsWorkBetterThanMagicAction(p, this.upgraded, this.freeToPlayOnce, this.energyOnUse));
+    addToBot(
+      (AbstractGameAction) new GunsWorkBetterThanMagicAction(
+        p,
+        this.upgraded,
+        this.freeToPlayOnce,
+        this.energyOnUse
+      )
+    );
   }
 
-
   public AbstractCard makeCopy() {
-    return (AbstractCard)new GunsWorkBetterThanMagic();
+    return (AbstractCard) new GunsWorkBetterThanMagic();
   }
 
   public void update() {
@@ -56,7 +77,6 @@ public class GunsWorkBetterThanMagic extends CustomCard {
           this.cardsToPreview.upgrade();
         }
       } else {
-
         this.rotationTimer -= Gdx.graphics.getDeltaTime();
       }
     }
@@ -70,8 +90,6 @@ public class GunsWorkBetterThanMagic extends CustomCard {
     }
   }
 }
-
-
 /* Location:              /mnt/nyoom/SteamLibrary/steamapps/workshop/content/646570/2640024018/Homura_mod.jar!/cards/GunsWorkBetterThanMagic.class
  * Java compiler version: 8 (52.0)
  * JD-Core Version:       1.1.3

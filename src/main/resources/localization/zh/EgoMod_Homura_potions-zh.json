@@ -1,9 +1,6 @@
 {
   "GriefSeed": {
     "NAME": "悲叹之种",
-    "DESCRIPTIONS": [
-      "回复最大生命值的 #b",
-      "% 。 NL 移除所有debuff。"
-    ]
+    "DESCRIPTIONS": ["回复最大生命值的 #b", "% 。 NL 移除所有debuff。"]
   }
 }

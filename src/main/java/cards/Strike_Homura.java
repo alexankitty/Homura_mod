@@ -1,4 +1,5 @@
 package cards;
+
 import EgoMod.AbstractCardEnum;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -12,42 +13,60 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 public class Strike_Homura extends CustomCard {
-  private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Strike_Homura"); public static final String ID = "Strike_Homura";
+
+  private static final CardStrings cardStrings =
+    CardCrawlGame.languagePack.getCardStrings("Strike_Homura");
+  public static final String ID = "Strike_Homura";
   public static final String NAME = cardStrings.NAME;
   public static final String DESCRIPTION = cardStrings.DESCRIPTION;
   public static final String IMG_PATH = "img/cards/Strike_Homura_attack.png";
   private static final int COST = 1;
   private static final int ATTACK_DMG = 6;
   private static final int UPGRADE_PLUS_DMG = 3;
-  
+
   public Strike_Homura() {
-    super("Strike_Homura", NAME, "img/cards/Strike_Homura_attack.png", 1, DESCRIPTION, AbstractCard.CardType.ATTACK, AbstractCardEnum.Homura_COLOR, AbstractCard.CardRarity.BASIC, AbstractCard.CardTarget.ENEMY);
+    super(
+      "Strike_Homura",
+      NAME,
+      "img/cards/Strike_Homura_attack.png",
+      1,
+      DESCRIPTION,
+      AbstractCard.CardType.ATTACK,
+      AbstractCardEnum.Homura_COLOR,
+      AbstractCard.CardRarity.BASIC,
+      AbstractCard.CardTarget.ENEMY
+    );
     this.tags.add(AbstractCard.CardTags.STARTER_STRIKE);
     this.tags.add(AbstractCard.CardTags.STRIKE);
-    
+
     this.baseDamage = 6;
   }
 
-  
   public void use(AbstractPlayer p, AbstractMonster m) {
-    addToBot((AbstractGameAction)new DamageAction((AbstractCreature)m, new DamageInfo((AbstractCreature)p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
+    addToBot(
+      (AbstractGameAction) new DamageAction(
+        (AbstractCreature) m,
+        new DamageInfo(
+          (AbstractCreature) p,
+          this.damage,
+          this.damageTypeForTurn
+        ),
+        AbstractGameAction.AttackEffect.SLASH_HORIZONTAL
+      )
+    );
   }
 
-  
   public AbstractCard makeCopy() {
-    return (AbstractCard)new Strike_Homura();
+    return (AbstractCard) new Strike_Homura();
   }
 
-  
   public void upgrade() {
     if (!this.upgraded) {
       upgradeName();
       upgradeDamage(3);
-    } 
+    }
   }
 }
-
-
 /* Location:              /mnt/nyoom/SteamLibrary/steamapps/workshop/content/646570/2640024018/Homura_mod.jar!/cards/Strike_Homura.class
  * Java compiler version: 8 (52.0)
  * JD-Core Version:       1.1.3

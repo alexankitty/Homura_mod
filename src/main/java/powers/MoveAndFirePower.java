@@ -1,4 +1,5 @@
 package powers;
+
 import com.badlogic.gdx.graphics.Texture;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
@@ -11,8 +12,12 @@ import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
 public class MoveAndFirePower extends AbstractPower {
-  private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings("MoveAndFirePower"); public static final String POWER_ID = "MoveAndFirePower";
+
+  private static final PowerStrings powerStrings =
+    CardCrawlGame.languagePack.getPowerStrings("MoveAndFirePower");
+  public static final String POWER_ID = "MoveAndFirePower";
   public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
+
   public MoveAndFirePower(AbstractCreature owner, int Block) {
     this.name = powerStrings.NAME;
     this.ID = "MoveAndFirePower";
@@ -23,19 +28,22 @@ public class MoveAndFirePower extends AbstractPower {
     updateDescription();
   }
 
-  
   public void onUseCard(AbstractCard card, UseCardAction action) {
     if (card.type == AbstractCard.CardType.ATTACK) {
-      addToBot((AbstractGameAction)new GainBlockAction((AbstractCreature)AbstractDungeon.player, (AbstractCreature)AbstractDungeon.player, this.amount));
+      addToBot(
+        (AbstractGameAction) new GainBlockAction(
+          (AbstractCreature) AbstractDungeon.player,
+          (AbstractCreature) AbstractDungeon.player,
+          this.amount
+        )
+      );
     }
   }
-  
+
   public void updateDescription() {
     this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1];
   }
 }
-
-
 /* Location:              /mnt/nyoom/SteamLibrary/steamapps/workshop/content/646570/2640024018/Homura_mod.jar!/powers/MoveAndFirePower.class
  * Java compiler version: 8 (52.0)
  * JD-Core Version:       1.1.3

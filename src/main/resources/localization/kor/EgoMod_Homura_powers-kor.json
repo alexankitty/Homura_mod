@@ -8,10 +8,7 @@
   },
   "DemonPower": {
     "NAME": "악마",
-    "DESCRIPTIONS": [
-      "턴 종료 시 보유한 저주 하나당 #b",
-      " 힘을 얻습니다."
-    ]
+    "DESCRIPTIONS": ["턴 종료 시 보유한 저주 하나당 #b", " 힘을 얻습니다."]
   },
   "M18A1Power": {
     "NAME": "지뢰",
@@ -22,17 +19,11 @@
   },
   "BombMakingPower": {
     "NAME": "폭탄 제조",
-    "DESCRIPTIONS": [
-      "턴 시작 시 #b",
-      " 사제폭탄을 핸드에 추가합니다."
-    ]
+    "DESCRIPTIONS": ["턴 시작 시 #b", " 사제폭탄을 핸드에 추가합니다."]
   },
   "BombMakingUpPower": {
     "NAME": "폭탄 제조+",
-    "DESCRIPTIONS": [
-      "턴 시작 시 #b",
-      " 사제폭탄+를 핸드에 추가합니다."
-    ]
+    "DESCRIPTIONS": ["턴 시작 시 #b", " 사제폭탄+를 핸드에 추가합니다."]
   },
   "ClocksPower": {
     "NAME": "시계",
@@ -50,17 +41,11 @@
   },
   "StockPower": {
     "NAME": "무기 비축",
-    "DESCRIPTIONS": [
-      "턴 시작 시 #b",
-      " 무작위 무기를 핸드에 추가합니다."
-    ]
+    "DESCRIPTIONS": ["턴 시작 시 #b", " 무작위 무기를 핸드에 추가합니다."]
   },
   "StockUpPower": {
     "NAME": "무기 비축+",
-    "DESCRIPTIONS": [
-      "턴 시작 시 #b",
-      " 무작위 무기를 핸드에 추가합니다."
-    ]
+    "DESCRIPTIONS": ["턴 시작 시 #b", " 무작위 무기를 핸드에 추가합니다."]
   },
   "StaminaPower": {
     "NAME": "지구력",
@@ -80,35 +65,22 @@
   },
   "ZeroEnergePower": {
     "NAME": "시간 정지",
-    "DESCRIPTIONS": [
-      "다음 카드의 비용이 0이 됩니다."
-    ]
+    "DESCRIPTIONS": ["다음 카드의 비용이 0이 됩니다."]
   },
   "MoveAndFirePower": {
     "NAME": "런 앤 건",
-    "DESCRIPTIONS": [
-      "공격 카드를 사용할 때마다 #b",
-      " 방어도를 얻습니다."
-    ]
+    "DESCRIPTIONS": ["공격 카드를 사용할 때마다 #b", " 방어도를 얻습니다."]
   },
   "TwiningPower": {
     "NAME": "자승자박",
-    "DESCRIPTIONS": [
-      "턴 시작 시 #b",
-      " 에너지를 얻습니다."
-    ]
+    "DESCRIPTIONS": ["턴 시작 시 #b", " 에너지를 얻습니다."]
   },
   "UntiePower": {
     "NAME": "머리 풀기",
-    "DESCRIPTIONS": [
-      "약화, 취약, 손상에 걸리지 않습니다."
-    ]
+    "DESCRIPTIONS": ["약화, 취약, 손상에 걸리지 않습니다."]
   },
   "TimeBombPower": {
     "NAME": "시한 폭탄",
-    "DESCRIPTIONS": [
-      "턴 종료 시 #b",
-      " 피해를 받습니다."
-    ]
+    "DESCRIPTIONS": ["턴 종료 시 #b", " 피해를 받습니다."]
   }
 }

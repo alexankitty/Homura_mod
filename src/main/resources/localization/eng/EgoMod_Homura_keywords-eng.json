@@ -1,36 +1,24 @@
 {
   "keywords": [
     {
-      "NAMES": [
-        "throw"
-      ],
+      "NAMES": ["throw"],
       "DESCRIPTION": "If this card is discarded, play it. Exhaust."
     },
     {
-      "NAMES": [
-        "anti-tank"
-      ],
+      "NAMES": ["anti-tank"],
       "DESCRIPTION": "Deal double basic damage to an enemy with block. Exhaust."
     },
     {
-      "NAMES": [
-        "hunt"
-      ],
+      "NAMES": ["hunt"],
       "DESCRIPTION": "Deal double basic damage to minions."
     },
     {
-      "NAMES": [
-        "servant"
-      ],
+      "NAMES": ["servant"],
       "DESCRIPTION": "If this card is discarded, play it."
     },
     {
-      "NAMES": [
-        "arm",
-		"arms"
-      ],
+      "NAMES": ["arm", "arms"],
       "DESCRIPTION": "If you have any of The Courier, Membership Card, Smiling Mask or Merchant's Rug, you can sell Arms in shops by removing the card (does not count towards removal cost)."
     }
   ]
-
 }

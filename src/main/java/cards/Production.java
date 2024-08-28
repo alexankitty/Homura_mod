@@ -1,4 +1,5 @@
 package cards;
+
 import EgoMod.AbstractCardEnum;
 import action.ProductionAction;
 import basemod.abstracts.CustomCard;
@@ -13,7 +14,10 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import patches.Patch;
 
 public class Production extends CustomCard {
-  private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Production"); public static final String ID = "Production";
+
+  private static final CardStrings cardStrings =
+    CardCrawlGame.languagePack.getCardStrings("Production");
+  public static final String ID = "Production";
   public static final String NAME = cardStrings.NAME;
   public static final String DESCRIPTION = cardStrings.DESCRIPTION;
   private static final int COST = 3;
@@ -22,13 +26,27 @@ public class Production extends CustomCard {
   public static final String IMG_PATH = "img/cards/Prodution_skill.png";
 
   public Production() {
-    super("Production", NAME, "img/cards/Prodution_skill.png", 3, DESCRIPTION, AbstractCard.CardType.SKILL, AbstractCardEnum.Homura_COLOR, AbstractCard.CardRarity.RARE, AbstractCard.CardTarget.SELF);
+    super(
+      "Production",
+      NAME,
+      "img/cards/Prodution_skill.png",
+      3,
+      DESCRIPTION,
+      AbstractCard.CardType.SKILL,
+      AbstractCardEnum.Homura_COLOR,
+      AbstractCard.CardRarity.RARE,
+      AbstractCard.CardTarget.SELF
+    );
     this.exhaust = true;
   }
 
-
   public void use(AbstractPlayer p, AbstractMonster m) {
-    addToBot((AbstractGameAction)new ProductionAction((AbstractCreature)p, 11 - p.hand.size()));
+    addToBot(
+      (AbstractGameAction) new ProductionAction(
+        (AbstractCreature) p,
+        11 - p.hand.size()
+      )
+    );
   }
 
   public void update() {
@@ -49,16 +67,14 @@ public class Production extends CustomCard {
           this.cardsToPreview.upgrade();
         }
       } else {
-
         this.rotationTimer -= Gdx.graphics.getDeltaTime();
       }
     }
   }
 
   public AbstractCard makeCopy() {
-    return (AbstractCard)new Production();
+    return (AbstractCard) new Production();
   }
-
 
   public void upgrade() {
     if (!this.upgraded) {
@@ -67,8 +83,6 @@ public class Production extends CustomCard {
     }
   }
 }
-
-
 /* Location:              /mnt/nyoom/SteamLibrary/steamapps/workshop/content/646570/2640024018/Homura_mod.jar!/cards/Production.class
  * Java compiler version: 8 (52.0)
  * JD-Core Version:       1.1.3

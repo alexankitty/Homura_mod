@@ -20,12 +20,6 @@
     "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 易伤 。 NL 军火 。"
   },
 
-
-
-
-
-
-
   "BombMaking": {
     "NAME": "制作炸弹",
     "DESCRIPTION": "在你的回合开始时，将 1 张 *简易炸弹 加入手牌。",
@@ -53,7 +47,6 @@
     "DESCRIPTION": "获得 1 层 无实体 。 NL 投掷 。",
     "UPGRADE_DESCRIPTION": "获得 1 层 无实体 。 NL 移除你的所有debuff。 NL 投掷 。"
   },
-
 
   "M18A1": {
     "NAME": "地雷",
@@ -93,8 +86,6 @@
     "DESCRIPTION": "丢弃 !M! 张牌。 NL 获得 !B! 点 格挡 。 NL 造成 !D! 点伤害。"
   },
 
-
-
   "FuelTankCar": {
     "NAME": "油罐车",
     "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 虚弱 和 易伤 。 NL 反坦克 。 NL 军火 。"
@@ -107,10 +98,6 @@
     "NAME": "AT4火箭筒",
     "DESCRIPTION": "造成 !D! 点伤害。 NL 反坦克 。 NL 军火 。"
   },
-
-
-
-
 
   "Mercy": {
     "NAME": "仁慈",
@@ -133,7 +120,6 @@
     "DESCRIPTION": "在你的手牌中加入 X 张随机军火牌。 NL 它们在本回合的耗能变为0。 NL 消耗 。",
     "UPGRADE_DESCRIPTION": "在你的手牌中加入 X 张升级过的随机军火牌。 NL 它们在本回合的耗能变为0。 NL 消耗 。"
   },
-
 
   "Detonate": {
     "NAME": "引爆",
@@ -173,10 +159,6 @@
     "NAME": "量产",
     "DESCRIPTION": "复制你手牌中的 1 张军火牌，直到你手牌达到上限。 NL 消耗 。"
   },
-
-
-
-
 
   "Untie": {
     "NAME": "解开发箍",
@@ -229,8 +211,6 @@
     "UPGRADE_DESCRIPTION": "将 1 张 *许愿+ 加入手牌,本回合耗能变为0。 NL 将 1 张随机 诅咒 牌洗入你的弃牌堆中。 NL 消耗 。"
   },
 
-
-
   "Hope": {
     "NAME": "希望",
     "DESCRIPTION": "回复 !M! 生命。 NL 将一张 *绝望 洗入弃牌堆。 NL 消耗 。"
@@ -254,9 +234,6 @@
     "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。 NL 牌组中每有 1 张不重复的牌，获得 !M! 格挡 。 NL 额外获诅咒数量的 格挡 。 NL 将一张 *绝望 洗入弃牌堆 。"
   },
 
-
-
-
   "Demon": {
     "NAME": "恶魔",
     "DESCRIPTION": "可以与15种以上的诅咒和仆人类型组合使用。NL 造成 !D! x !M! 伤害。NL 即时击杀30点或以下HP的普通敌人。NL 总计: !M! / 15 ",
@@ -266,8 +243,6 @@
     "NAME": "围剿",
     "DESCRIPTION": "保留 。NL 造成 !D! 点伤害 !M! 次, NL (你每有 1 种 使魔 重复 1 次。) NL 猎杀 。"
   },
-
-
 
   "Ruin": {
     "NAME": "崩坏",
@@ -286,8 +261,6 @@
     "NAME": "污泥",
     "DESCRIPTION": "给予所有敌人 !M! 层 虚弱 和 易伤 。 NL (你每有 1 张诅咒牌数值+1。)"
   },
-
-
 
   "No1": {
     "NAME": "自大",
@@ -354,9 +327,6 @@
     "UPGRADE_DESCRIPTION": "不能被打出 。 NL 抽到或丢弃时获得 [E] [E] 。 NL 使魔 。"
   },
 
-
-
-
   "MagicLongbow": {
     "NAME": "魔法长弓",
     "DESCRIPTION": "造成 !D! 点伤害。 NL 切换其意图。 NL 保留 。"
@@ -374,10 +344,6 @@
     "DESCRIPTION": " !M! %概率获得30金币并使非boss敌人逃跑 。 NL 目标每-1%最大生命值，成功概率+1%。 NL 消耗 。",
     "UPGRADE_DESCRIPTION": "保留 。NL  !M! %概率获得30金币并使非boss敌人逃跑 。 NL 目标每-1%最大生命值，成功概率+1%。 NL 消耗 。 NL 保留 。"
   },
-
-
-
-
 
   "CauseAndEffect": {
     "NAME": "因果",

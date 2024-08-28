@@ -80,35 +80,22 @@
   },
   "ZeroEnergePower": {
     "NAME": "Time Stop",
-    "DESCRIPTIONS": [
-      "Your next card costs 0."
-    ]
+    "DESCRIPTIONS": ["Your next card costs 0."]
   },
   "MoveAndFirePower": {
     "NAME": "Run and Gun",
-    "DESCRIPTIONS": [
-      "Whenever you play an Attack, gain #b",
-      " Block."
-    ]
+    "DESCRIPTIONS": ["Whenever you play an Attack, gain #b", " Block."]
   },
   "TwiningPower": {
     "NAME": "Twining",
-    "DESCRIPTIONS": [
-      "At the start of your turn, gain #b",
-      " Energy."
-    ]
+    "DESCRIPTIONS": ["At the start of your turn, gain #b", " Energy."]
   },
   "UntiePower": {
     "NAME": "Untie",
-    "DESCRIPTIONS": [
-      "Immune to Weak, Vulnerable and Frail."
-    ]
+    "DESCRIPTIONS": ["Immune to Weak, Vulnerable and Frail."]
   },
   "TimeBombPower": {
     "NAME": "TimeBomb",
-    "DESCRIPTIONS": [
-      "At end of turn take #b",
-      " damage"
-    ]
+    "DESCRIPTIONS": ["At end of turn take #b", " damage"]
   }
 }

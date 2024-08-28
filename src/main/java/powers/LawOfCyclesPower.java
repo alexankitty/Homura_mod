@@ -13,8 +13,12 @@ import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
 public class LawOfCyclesPower extends AbstractPower {
-  private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings("LawOfCyclesPower"); public static final String POWER_ID = "LawOfCyclesPower";
+
+  private static final PowerStrings powerStrings =
+    CardCrawlGame.languagePack.getPowerStrings("LawOfCyclesPower");
+  public static final String POWER_ID = "LawOfCyclesPower";
   public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
+
   public LawOfCyclesPower(AbstractCreature owner, int amount) {
     this.name = powerStrings.NAME;
     this.ID = "LawOfCyclesPower";
@@ -25,21 +29,27 @@ public class LawOfCyclesPower extends AbstractPower {
     updateDescription();
   }
 
-
   public void onCardDraw(AbstractCard card) {
-    if (card.type == AbstractCard.CardType.CURSE && !AbstractDungeon.player.hasRelic("SoulGem_Demon")) {
+    if (
+      card.type == AbstractCard.CardType.CURSE &&
+      !AbstractDungeon.player.hasRelic("SoulGem_Demon")
+    ) {
       flash();
       AbstractPlayer p = AbstractDungeon.player;
       p.hand.moveToExhaustPile(card);
-      addToBot((AbstractGameAction)new MakeTempCardInHandAction((AbstractCard)new Miracle(), this.amount));
+      addToBot(
+        (AbstractGameAction) new MakeTempCardInHandAction(
+          (AbstractCard) new Miracle(),
+          this.amount
+        )
+      );
     }
   }
+
   public void updateDescription() {
     this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1];
   }
 }
-
-
 /* Location:              /mnt/nyoom/SteamLibrary/steamapps/workshop/content/646570/2640024018/Homura_mod.jar!/powers/LawOfCyclesPower.class
  * Java compiler version: 8 (52.0)
  * JD-Core Version:       1.1.3

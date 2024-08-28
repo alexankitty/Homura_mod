@@ -1,4 +1,5 @@
 package cards;
+
 import EgoMod.AbstractCardEnum;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -13,7 +14,10 @@ import com.megacrit.cardcrawl.powers.AbstractPower;
 import powers.StaminaPower;
 
 public class Stamina extends CustomCard {
-  private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Stamina"); public static final String ID = "Stamina";
+
+  private static final CardStrings cardStrings =
+    CardCrawlGame.languagePack.getCardStrings("Stamina");
+  public static final String ID = "Stamina";
   public static final String NAME = cardStrings.NAME;
   public static final String DESCRIPTION = cardStrings.DESCRIPTION;
 
@@ -22,19 +26,32 @@ public class Stamina extends CustomCard {
   public static final String IMG_PATH = "img/cards/Stamina_power.png";
 
   public Stamina() {
-    super("Stamina", NAME, "img/cards/Stamina_power.png", 3, DESCRIPTION, AbstractCard.CardType.POWER, AbstractCardEnum.Homura_COLOR, AbstractCard.CardRarity.RARE, AbstractCard.CardTarget.SELF);
+    super(
+      "Stamina",
+      NAME,
+      "img/cards/Stamina_power.png",
+      3,
+      DESCRIPTION,
+      AbstractCard.CardType.POWER,
+      AbstractCardEnum.Homura_COLOR,
+      AbstractCard.CardRarity.RARE,
+      AbstractCard.CardTarget.SELF
+    );
   }
-
 
   public void use(AbstractPlayer p, AbstractMonster m) {
-    addToBot((AbstractGameAction)new ApplyPowerAction((AbstractCreature)p, (AbstractCreature)p, (AbstractPower)new StaminaPower((AbstractCreature)p, 1)));
+    addToBot(
+      (AbstractGameAction) new ApplyPowerAction(
+        (AbstractCreature) p,
+        (AbstractCreature) p,
+        (AbstractPower) new StaminaPower((AbstractCreature) p, 1)
+      )
+    );
   }
-
 
   public AbstractCard makeCopy() {
-    return (AbstractCard)new Stamina();
+    return (AbstractCard) new Stamina();
   }
-
 
   public void upgrade() {
     if (!this.upgraded) {
@@ -43,8 +60,6 @@ public class Stamina extends CustomCard {
     }
   }
 }
-
-
 /* Location:              /mnt/nyoom/SteamLibrary/steamapps/workshop/content/646570/2640024018/Homura_mod.jar!/cards/Stamina.class
  * Java compiler version: 8 (52.0)
  * JD-Core Version:       1.1.3

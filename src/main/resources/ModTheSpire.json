@@ -1,14 +1,10 @@
 {
   "modid": "Akemi_Homura",
   "name": "Akemi_Homura（晓美焰）",
-  "author_list": [
-    "EGOIST"
-  ],
+  "author_list": ["EGOIST"],
   "description": "Adds Akemi Homura（晓美焰） as a new playable character",
 
-  "dependencies": [
-    "basemod","stslib"
-  ],
+  "dependencies": ["basemod", "stslib"],
   "version": "1.11.10",
   "sts_version": "08-15-2021"
 }

@@ -14,9 +14,13 @@ import java.util.ArrayList;
 import patches.Patch;
 
 public class FalseTownPower extends AbstractPower {
-  private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings("FalseTownPower"); public static final String POWER_ID = "FalseTownPower";
-  public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS; boolean isUpgrade;
-  
+
+  private static final PowerStrings powerStrings =
+    CardCrawlGame.languagePack.getPowerStrings("FalseTownPower");
+  public static final String POWER_ID = "FalseTownPower";
+  public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
+  boolean isUpgrade;
+
   public FalseTownPower(AbstractCreature owner, boolean isUpgrade, int Amount) {
     this.name = powerStrings.NAME;
     this.ID = "FalseTownPower";
@@ -27,35 +31,32 @@ public class FalseTownPower extends AbstractPower {
     this.amount = Amount;
     updateDescription();
   }
-  
+
   public void stackPower(int stackAmount) {
     this.fontScale = 8.0F;
     this.amount += stackAmount;
     updateDescription();
   }
 
-  
   public void atStartOfTurn() {
     ArrayList<AbstractCard> cl = Patch.getServant(this.amount);
     for (AbstractCard c : cl) {
-      addToBot((AbstractGameAction)new MakeTempCardInDrawPileAction(c, 1, true, true));
+      addToBot(
+        (AbstractGameAction) new MakeTempCardInDrawPileAction(c, 1, true, true)
+      );
       AbstractCard curse = AbstractDungeon.returnRandomCurse().makeCopy();
-      addToBot((AbstractGameAction)new MakeTempCardInDiscardAction(curse, 1));
-    } 
+      addToBot((AbstractGameAction) new MakeTempCardInDiscardAction(curse, 1));
+    }
   }
 
-
-
-
-
-
-  
   public void updateDescription() {
-    this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2];
+    this.description = DESCRIPTIONS[0] +
+    this.amount +
+    DESCRIPTIONS[1] +
+    this.amount +
+    DESCRIPTIONS[2];
   }
 }
-
-
 /* Location:              /mnt/nyoom/SteamLibrary/steamapps/workshop/content/646570/2640024018/Homura_mod.jar!/powers/FalseTownPower.class
  * Java compiler version: 8 (52.0)
  * JD-Core Version:       1.1.3

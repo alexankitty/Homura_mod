@@ -21,12 +21,6 @@
     "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable. NL Arm."
   },
 
-
-
-
-
-
-
   "BombMaking": {
     "NAME": "Bomb Making",
     "DESCRIPTION": "At the start of your turn, add an *IED into your hand.",
@@ -55,8 +49,6 @@
     "UPGRADE_DESCRIPTION": "Gain 1 Intangible. NL Remove all of your debuffs. NL Throw."
   },
 
-
-
   "M18A1": {
     "NAME": "Mines",
     "DESCRIPTION": "The next !M! times you are attacked, deal equal damage back. NL Exhaust. NL Arm."
@@ -76,7 +68,7 @@
   "Flash": {
     "NAME": "Flash",
     "DESCRIPTION": "Gain !B! Block. NL Draw !M! card. NL Discard 1 card.",
-	"UPGRADE_DESCRIPTION": "Gain !B! Block. NL Draw !M! cards. NL Discard 1 card."
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Draw !M! cards. NL Discard 1 card."
   },
   "SwivelThrow": {
     "NAME": "Swivel Throw",
@@ -93,8 +85,6 @@
     "UPGRADE_DESCRIPTION": "Discard any number of cards, then draw that many cards. NL Shuffle your discard pile into your draw pile."
   },
 
-
-
   "FuelTankCar": {
     "NAME": "Fuel Tank",
     "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak and Vulnerable. NL Anti-tank. NL Arm."
@@ -107,8 +97,6 @@
     "NAME": "AT4",
     "DESCRIPTION": "Deal !D! damage. NL Anti-tank. NL Arm."
   },
-
-
 
   "DodgeShot": {
     "NAME": "Evasive Shot",
@@ -135,7 +123,6 @@
     "DESCRIPTION": "Add X random Arms into your hand. NL They cost 0 this turn. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Add X random Upgraded Arms into your hand. NL They cost 0 this turn. NL Exhaust."
   },
-
 
   "Detonate": {
     "NAME": "Detonate",
@@ -176,10 +163,6 @@
     "DESCRIPTION": "Choose an Arm card. Add copies of that card into your hand until your hand is full. NL Exhaust."
   },
 
-
-
-
-
   "Untie": {
     "NAME": "Untie",
     "DESCRIPTION": "Become immune to Weak, Vulnerable and Frail."
@@ -210,14 +193,12 @@
   "FalseTown": {
     "NAME": "False Town",
     "DESCRIPTION": "At the start of your turn, add !M! new Servant to your draw pile and add !M! random Curse to your discard pile.",
-	"UPGRADE_DESCRIPTION": "Innate. NL At the start of your turn, add !M! new Servant to your draw pile and add !M! random Curse to your discard pile."
+    "UPGRADE_DESCRIPTION": "Innate. NL At the start of your turn, add !M! new Servant to your draw pile and add !M! random Curse to your discard pile."
   },
   "LawOfCycles": {
     "NAME": "Law of Cycles",
     "DESCRIPTION": "Whenever you draw a Curse, Exhaust it, then add a *Miracle into your hand."
   },
-
-
 
   "ThePriceOfMiracles": {
     "NAME": "The Price of Miracles",
@@ -231,7 +212,6 @@
     "NAME": "Contract",
     "DESCRIPTION": "Add a *Wish to your hand. NL It costs 0 this turn. NL Add a random Curse to your discard pile. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Add a *Wish+ to your hand. NL It costs 0 this turn. NL Add a random Curse to your discard pile. NL Exhaust."
-	
   },
   "Hope": {
     "NAME": "Hope",
@@ -256,8 +236,6 @@
     "UPGRADE_DESCRIPTION": "Gain !M! Block for each unique card in your deck. NL Curses add additional Block. NL Add a *Despair into your discard pile. NL !B! unique cards."
   },
 
-
-
   "Demon": {
     "NAME": "Demon",
     "DESCRIPTION": "Playable with a combination of 15+ Curses and Servant types. NL Deal !D! x !M! damage. NL Instant kill normal enemies that would have 30 or less HP. NL Total: !M!/ 15",
@@ -267,8 +245,6 @@
     "NAME": "Encircle",
     "DESCRIPTION": "Deal !D! damage for each kind of Servant. NL Hunt. NL !M! Servant kinds."
   },
-
-
 
   "Ruin": {
     "NAME": "Ruin",
@@ -287,8 +263,6 @@
     "NAME": "Mud",
     "DESCRIPTION": "Apply 1 Weak and Vulnerable to ALL enemies for each Curse card you have. NL !M! Curse cards."
   },
-
-
 
   "No1": {
     "NAME": "Arrogance",
@@ -355,9 +329,6 @@
     "UPGRADE_DESCRIPTION": "Unplayable. NL When you draw or discard this card, gain [E] [E]. NL Servant."
   },
 
-
-
-
   "MagicLongbow": {
     "NAME": "Magic Longbow",
     "DESCRIPTION": "Retain. NL Deal !D! damage. NL Switch the enemy's intention."
@@ -375,10 +346,6 @@
     "DESCRIPTION": " !M!% chance to force the non-Boss enemy to escape and gain 30 Gold. NL For each % Max HP lost, increase chance by 1%. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Retain. NL !M!% chance to force the non-Boss enemy to escape and gain 30 Gold. NL For each % Max HP lost, increase chance by 1%. NL Exhaust."
   },
-
-
-
-
 
   "CauseAndEffect": {
     "NAME": "Cause and Effect",

@@ -1,4 +1,5 @@
 package cards;
+
 import EgoMod.AbstractCardEnum;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -16,45 +17,72 @@ import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.IntangiblePlayerPower;
 
 public class FireExtinguisher extends CustomCard {
-  private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("FireExtinguisher"); public static final String ID = "FireExtinguisher";
+
+  private static final CardStrings cardStrings =
+    CardCrawlGame.languagePack.getCardStrings("FireExtinguisher");
+  public static final String ID = "FireExtinguisher";
   public static final String NAME = cardStrings.NAME;
   public static final String DESCRIPTION = cardStrings.DESCRIPTION;
   public static final String IMG_PATH = "img/cards/FireExtinguisher_skill.png";
   private static final int COST = 2;
-  
+
   public FireExtinguisher() {
-    super("FireExtinguisher", NAME, "img/cards/FireExtinguisher_skill.png", 2, DESCRIPTION, AbstractCard.CardType.SKILL, AbstractCardEnum.Homura_COLOR, AbstractCard.CardRarity.RARE, AbstractCard.CardTarget.ALL_ENEMY);
+    super(
+      "FireExtinguisher",
+      NAME,
+      "img/cards/FireExtinguisher_skill.png",
+      2,
+      DESCRIPTION,
+      AbstractCard.CardType.SKILL,
+      AbstractCardEnum.Homura_COLOR,
+      AbstractCard.CardRarity.RARE,
+      AbstractCard.CardTarget.ALL_ENEMY
+    );
     this.exhaust = true;
   }
 
-  
   public void use(AbstractPlayer p, AbstractMonster m) {
     if (this.upgraded) {
-      addToBot((AbstractGameAction)new RemoveDebuffsAction((AbstractCreature)AbstractDungeon.player));
+      addToBot(
+        (AbstractGameAction) new RemoveDebuffsAction(
+          (AbstractCreature) AbstractDungeon.player
+        )
+      );
     }
-    addToBot((AbstractGameAction)new ApplyPowerAction((AbstractCreature)p, (AbstractCreature)p, (AbstractPower)new IntangiblePlayerPower((AbstractCreature)p, 1), 1));
+    addToBot(
+      (AbstractGameAction) new ApplyPowerAction(
+        (AbstractCreature) p,
+        (AbstractCreature) p,
+        (AbstractPower) new IntangiblePlayerPower((AbstractCreature) p, 1),
+        1
+      )
+    );
   }
 
-  
   public void triggerOnManualDiscard() {
-    addToTop((AbstractGameAction)new NewQueueCardAction((AbstractCard)this, null, false, true));
+    addToTop(
+      (AbstractGameAction) new NewQueueCardAction(
+        (AbstractCard) this,
+        null,
+        false,
+        true
+      )
+    );
     AbstractDungeon.player.discardPile.group.remove(this);
   }
-  
+
   public AbstractCard makeCopy() {
-    return (AbstractCard)new FireExtinguisher();
+    return (AbstractCard) new FireExtinguisher();
   }
-  
+
   public void upgrade() {
     if (!this.upgraded) {
       upgradeName();
       this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
       initializeDescription();
-    } 
+    }
   }
 }
-
-
 /* Location:              /mnt/nyoom/SteamLibrary/steamapps/workshop/content/646570/2640024018/Homura_mod.jar!/cards/FireExtinguisher.class
  * Java compiler version: 8 (52.0)
  * JD-Core Version:       1.1.3

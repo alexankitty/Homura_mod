@@ -1,17 +1,11 @@
 {
   "LawOfCyclesPower": {
     "NAME": "圆环之理",
-    "DESCRIPTIONS": [
-      "当你抽到诅咒牌时，将其消耗，将 #b",
-      " 张奇迹加入手牌。"
-    ]
+    "DESCRIPTIONS": ["当你抽到诅咒牌时，将其消耗，将 #b", " 张奇迹加入手牌。"]
   },
   "DemonPower": {
     "NAME": "恶魔",
-    "DESCRIPTIONS": [
-      "在你回合结束时，你每有1张诅咒牌，获得 #b",
-      "力量。"
-    ]
+    "DESCRIPTIONS": ["在你回合结束时，你每有1张诅咒牌，获得 #b", "力量。"]
   },
   "M18A1Power": {
     "NAME": "地雷",
@@ -22,38 +16,23 @@
   },
   "BombMakingPower": {
     "NAME": "制作炸弹",
-    "DESCRIPTIONS": [
-      "在你的回合开始时，将 #b",
-      " 张 简易炸弹 加入手牌。"
-    ]
+    "DESCRIPTIONS": ["在你的回合开始时，将 #b", " 张 简易炸弹 加入手牌。"]
   },
   "BombMakingUpPower": {
     "NAME": "制作炸弹+",
-    "DESCRIPTIONS": [
-      "在你的回合开始时，将 #b",
-      " 张 简易炸弹+ 加入手牌。"
-    ]
+    "DESCRIPTIONS": ["在你的回合开始时，将 #b", " 张 简易炸弹+ 加入手牌。"]
   },
   "ClocksPower": {
     "NAME": "掐表是吧?",
-    "DESCRIPTIONS": [
-      "你每打出 12 张牌，将 #b",
-      " 张 腾跃 加入手牌。"
-    ]
+    "DESCRIPTIONS": ["你每打出 12 张牌，将 #b", " 张 腾跃 加入手牌。"]
   },
   "ClocksUpPower": {
     "NAME": "掐表是吧?+",
-    "DESCRIPTIONS": [
-      "你每打出 12 张牌，将 #b",
-      " 张 腾跃+ 加入手牌。"
-    ]
+    "DESCRIPTIONS": ["你每打出 12 张牌，将 #b", " 张 腾跃+ 加入手牌。"]
   },
   "StockPower": {
     "NAME": "进货",
-    "DESCRIPTIONS": [
-      "在你的回合开始时，将 #b",
-      " 张随机攻击牌加入你的手牌。"
-    ]
+    "DESCRIPTIONS": ["在你的回合开始时，将 #b", " 张随机攻击牌加入你的手牌。"]
   },
   "StockUpPower": {
     "NAME": "进货+",
@@ -80,35 +59,22 @@
   },
   "ZeroEnergePower": {
     "NAME": "时停",
-    "DESCRIPTIONS": [
-      "你的下 1 张牌耗能为0。"
-    ]
+    "DESCRIPTIONS": ["你的下 1 张牌耗能为0。"]
   },
   "MoveAndFirePower": {
     "NAME": "移动射击",
-    "DESCRIPTIONS": [
-      "你每打出 1 张攻击牌，获得 #b",
-      " 点格挡。"
-    ]
+    "DESCRIPTIONS": ["你每打出 1 张攻击牌，获得 #b", " 点格挡。"]
   },
   "TwiningPower": {
     "NAME": "缠绕",
-    "DESCRIPTIONS": [
-      "回合开始时，获得 #b",
-      " 点能量。"
-    ]
+    "DESCRIPTIONS": ["回合开始时，获得 #b", " 点能量。"]
   },
   "UntiePower": {
     "NAME": "解开发箍",
-    "DESCRIPTIONS": [
-      "免疫 虚弱 ， 易伤 和 脆弱 。"
-    ]
+    "DESCRIPTIONS": ["免疫 虚弱 ， 易伤 和 脆弱 。"]
   },
   "TimeBombPower": {
     "NAME": "定时炸弹",
-    "DESCRIPTIONS": [
-      "回合结束后受到 #b",
-      " 点伤害。"
-    ]
+    "DESCRIPTIONS": ["回合结束后受到 #b", " 点伤害。"]
   }
 }

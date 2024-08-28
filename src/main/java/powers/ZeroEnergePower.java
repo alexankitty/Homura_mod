@@ -13,8 +13,12 @@ import com.megacrit.cardcrawl.powers.AbstractPower;
 import java.util.Iterator;
 
 public class ZeroEnergePower extends AbstractPower {
-  private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings("ZeroEnergePower"); public static final String POWER_ID = "ZeroEnergePower";
+
+  private static final PowerStrings powerStrings =
+    CardCrawlGame.languagePack.getPowerStrings("ZeroEnergePower");
+  public static final String POWER_ID = "ZeroEnergePower";
   public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
+
   public ZeroEnergePower(AbstractCreature owner) {
     this.name = powerStrings.NAME;
     this.ID = "ZeroEnergePower";
@@ -57,7 +61,13 @@ public class ZeroEnergePower extends AbstractPower {
 
   public void onUseCard(AbstractCard card, UseCardAction action) {
     flash();
-    AbstractDungeon.actionManager.addToBottom((AbstractGameAction)new RemoveSpecificPowerAction(this.owner, this.owner, "ZeroEnergePower"));
+    AbstractDungeon.actionManager.addToBottom(
+      (AbstractGameAction) new RemoveSpecificPowerAction(
+        this.owner,
+        this.owner,
+        "ZeroEnergePower"
+      )
+    );
   }
 
   public void onRemove() {
@@ -88,15 +98,19 @@ public class ZeroEnergePower extends AbstractPower {
   }
 
   public void atEndOfTurn(boolean isPlayer) {
-    AbstractDungeon.actionManager.addToBottom((AbstractGameAction)new RemoveSpecificPowerAction(this.owner, this.owner, "ZeroEnergePower"));
+    AbstractDungeon.actionManager.addToBottom(
+      (AbstractGameAction) new RemoveSpecificPowerAction(
+        this.owner,
+        this.owner,
+        "ZeroEnergePower"
+      )
+    );
   }
 
   public void updateDescription() {
     this.description = DESCRIPTIONS[0];
   }
 }
-
-
 /* Location:              /mnt/nyoom/SteamLibrary/steamapps/workshop/content/646570/2640024018/Homura_mod.jar!/powers/ZeroEnergePower.class
  * Java compiler version: 8 (52.0)
  * JD-Core Version:       1.1.3

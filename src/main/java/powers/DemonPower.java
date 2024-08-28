@@ -12,18 +12,13 @@ import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 import patches.Patch;
 
+public class DemonPower extends AbstractPower {
 
-
-
-
-
-
-public class DemonPower
-  extends AbstractPower
-{
   public static final String POWER_ID = "DemonPower";
-  private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings("DemonPower");
+  private static final PowerStrings powerStrings =
+    CardCrawlGame.languagePack.getPowerStrings("DemonPower");
   public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
+
   public DemonPower(AbstractCreature owner, int amount) {
     this.name = powerStrings.NAME;
     this.ID = "DemonPower";
@@ -34,30 +29,35 @@ public class DemonPower
     updateDescription();
   }
 
-  
   public void atEndOfTurn(boolean isPlayer) {
     if (!AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
       int curseNum = Patch.countCurse();
       if (curseNum > 0 && this.amount > 0) {
         flash();
         AbstractPlayer p = AbstractDungeon.player;
-        addToBot((AbstractGameAction)new ApplyPowerAction((AbstractCreature)p, (AbstractCreature)p, (AbstractPower)new StrengthPower((AbstractCreature)p, curseNum * this.amount), curseNum * this.amount));
-      } 
-    } 
+        addToBot(
+          (AbstractGameAction) new ApplyPowerAction(
+            (AbstractCreature) p,
+            (AbstractCreature) p,
+            (AbstractPower) new StrengthPower(
+              (AbstractCreature) p,
+              curseNum * this.amount
+            ),
+            curseNum * this.amount
+          )
+        );
+      }
+    }
   }
 
-  
   public void onInitialApplication() {}
 
-  
   public void onRemove() {}
-  
+
   public void updateDescription() {
     this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1];
   }
 }
-
-
 /* Location:              /mnt/nyoom/SteamLibrary/steamapps/workshop/content/646570/2640024018/Homura_mod.jar!/powers/DemonPower.class
  * Java compiler version: 8 (52.0)
  * JD-Core Version:       1.1.3

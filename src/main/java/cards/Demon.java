@@ -1,4 +1,5 @@
 package cards;
+
 import EgoMod.AbstractCardEnum;
 import EgoMod.HomuraMod;
 import basemod.abstracts.CustomCard;
@@ -26,56 +27,90 @@ import patches.Patch;
 import stance.DemonStance;
 
 public class Demon extends CustomCard {
-  private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Demon"); public static final String ID = "Demon";
+
+  private static final CardStrings cardStrings =
+    CardCrawlGame.languagePack.getCardStrings("Demon");
+  public static final String ID = "Demon";
   public static final String NAME = cardStrings.NAME;
   public static final String DESCRIPTION = cardStrings.DESCRIPTION;
   public static final String IMG_PATH = "img/cards/Demon_attack.png";
   private static final int COST = 3;
-           private static final int ATTACK_DMG = 10;
-  
+  private static final int ATTACK_DMG = 10;
+
   public Demon() {
-    super("Demon", NAME, "img/cards/Demon_attack.png", 3, DESCRIPTION, AbstractCard.CardType.ATTACK, AbstractCardEnum.Homura_COLOR, AbstractCard.CardRarity.RARE, AbstractCard.CardTarget.ALL_ENEMY);
+    super(
+      "Demon",
+      NAME,
+      "img/cards/Demon_attack.png",
+      3,
+      DESCRIPTION,
+      AbstractCard.CardType.ATTACK,
+      AbstractCardEnum.Homura_COLOR,
+      AbstractCard.CardRarity.RARE,
+      AbstractCard.CardTarget.ALL_ENEMY
+    );
     this.baseMagicNumber = 0;
-             this.baseDamage = 10;
+    this.baseDamage = 10;
     this.magicNumber = this.baseMagicNumber;
   }
 
-  
   public void use(AbstractPlayer p, AbstractMonster m) {
     if (HomuraMod.isSchoolUniform || HomuraMod.isMagicalGirl) {
-      addToBot((AbstractGameAction)new ChangeStanceAction((AbstractStance)new DemonStance()));
+      addToBot(
+        (AbstractGameAction) new ChangeStanceAction(
+          (AbstractStance) new DemonStance()
+        )
+      );
     }
     int hitCount = Patch.countServantNum() + Patch.countCurse();
     int potentialDamage = hitCount * this.damage;
-    addToBot((AbstractGameAction)new VFXAction((AbstractGameEffect)new GrandFinalEffect(), 1.0F));
+    addToBot(
+      (AbstractGameAction) new VFXAction(
+        (AbstractGameEffect) new GrandFinalEffect(),
+        1.0F
+      )
+    );
     for (AbstractMonster mo : (AbstractDungeon.getCurrRoom()).monsters.monsters) {
       if (mo.currentHealth > 0) {
         for (int i = 0; i < 3; i++) {
-          addToBot((AbstractGameAction)new WaitAction(0.1F));
+          addToBot((AbstractGameAction) new WaitAction(0.1F));
         }
-          if(mo.type != AbstractMonster.EnemyType.NORMAL || mo.currentHealth > (potentialDamage + 30)){
-              for (int i = 0; i < hitCount; i++) {
-                  addToBot((AbstractGameAction)new DamageAction((AbstractCreature)mo, new DamageInfo((AbstractCreature)p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.FIRE));
-              }
+        if (
+          mo.type != AbstractMonster.EnemyType.NORMAL ||
+          mo.currentHealth > (potentialDamage + 30)
+        ) {
+          for (int i = 0; i < hitCount; i++) {
+            addToBot(
+              (AbstractGameAction) new DamageAction(
+                (AbstractCreature) mo,
+                new DamageInfo(
+                  (AbstractCreature) p,
+                  this.damage,
+                  this.damageTypeForTurn
+                ),
+                AbstractGameAction.AttackEffect.FIRE
+              )
+            );
           }
-          else{
-              addToBot((AbstractGameAction)new InstantKillAction((AbstractCreature)mo));
-          }
+        } else {
+          addToBot(
+            (AbstractGameAction) new InstantKillAction((AbstractCreature) mo)
+          );
+        }
       }
-    } 
+    }
   }
 
   public void calculateCardDamage(AbstractMonster m) {
     this.baseMagicNumber = Patch.countServantNum() + Patch.countCurse();
     super.calculateCardDamage(m);
   }
+
   public void applyPowers() {
     this.baseMagicNumber = Patch.countServantNum() + Patch.countCurse();
     super.applyPowers();
   }
 
-
-  
   public boolean canUse(AbstractPlayer p, AbstractMonster m) {
     boolean canUse = super.canUse(p, m);
     if (!canUse) {
@@ -87,22 +122,19 @@ public class Demon extends CustomCard {
     return canUse;
   }
 
-  
   public AbstractCard makeCopy() {
-    return (AbstractCard)new Demon();
+    return (AbstractCard) new Demon();
   }
-  
+
   public void upgrade() {
     if (!this.upgraded) {
       upgradeName();
       this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
       initializeDescription();
       this.selfRetain = true;
-    } 
+    }
   }
 }
-
-
 /* Location:              /mnt/nyoom/SteamLibrary/steamapps/workshop/content/646570/2640024018/Homura_mod.jar!/cards/Demon.class
  * Java compiler version: 8 (52.0)
  * JD-Core Version:       1.1.3
