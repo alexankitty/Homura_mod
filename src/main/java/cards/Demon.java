@@ -7,6 +7,7 @@ import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
 import com.megacrit.cardcrawl.actions.common.InstantKillAction;
 import com.megacrit.cardcrawl.actions.utility.WaitAction;
 import com.megacrit.cardcrawl.actions.watcher.ChangeStanceAction;
@@ -52,6 +53,7 @@ public class Demon extends CustomCard {
     this.baseMagicNumber = 0;
     this.baseDamage = 10;
     this.magicNumber = this.baseMagicNumber;
+    this.isMultiDamage = true;
   }
 
   public void use(AbstractPlayer p, AbstractMonster m) {
@@ -64,6 +66,7 @@ public class Demon extends CustomCard {
     }
     int hitCount = Patch.countServantNum() + Patch.countCurse();
     int potentialDamage = hitCount * this.damage;
+    boolean doDamage = false;
     addToBot(
       (AbstractGameAction) new VFXAction(
         (AbstractGameEffect) new GrandFinalEffect(),
@@ -79,7 +82,8 @@ public class Demon extends CustomCard {
           mo.type != AbstractMonster.EnemyType.NORMAL ||
           mo.currentHealth > (potentialDamage + 30)
         ) {
-          for (int i = 0; i < hitCount; i++) {
+          doDamage = true;
+          /*for (int i = 0; i < hitCount; i++) {
             addToBot(
               (AbstractGameAction) new DamageAction(
                 (AbstractCreature) mo,
@@ -90,13 +94,25 @@ public class Demon extends CustomCard {
                 ),
                 AbstractGameAction.AttackEffect.FIRE
               )
-            );
+            );*/
+
           }
         } else {
           addToBot(
             (AbstractGameAction) new InstantKillAction((AbstractCreature) mo)
           );
         }
+      }
+    if(doDamage) {
+      for (int i = 0; i < hitCount; i++) {
+        addToBot(
+                (AbstractGameAction) new DamageAllEnemiesAction(
+                        (AbstractCreature) p,
+                        this.multiDamage,
+                        this.damageTypeForTurn,
+                        AbstractGameAction.AttackEffect.FIRE
+                )
+        );
       }
     }
   }
