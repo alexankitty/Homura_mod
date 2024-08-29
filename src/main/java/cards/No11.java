@@ -5,7 +5,9 @@ import action.ServantAction;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInDiscardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.curses.Regret;
 import com.megacrit.cardcrawl.cards.curses.Shame;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
@@ -58,6 +60,12 @@ public class No11 extends CustomCard {
         (AbstractCreature) p,
         this.block
       )
+    );
+    addToBot(
+            (AbstractGameAction) new MakeTempCardInDiscardAction(
+                    (new Shame()).makeCopy(),
+                    1
+            )
     );
   }
 
