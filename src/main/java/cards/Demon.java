@@ -27,7 +27,7 @@ import com.megacrit.cardcrawl.vfx.combat.GrandFinalEffect;
 import patches.Patch;
 import stance.DemonStance;
 
-public class Demon extends CustomCard {
+public class  Demon extends CustomCard {
 
   private static final CardStrings cardStrings =
     CardCrawlGame.languagePack.getCardStrings("Demon");
@@ -51,7 +51,7 @@ public class Demon extends CustomCard {
       AbstractCard.CardTarget.ALL_ENEMY
     );
     this.baseMagicNumber = 0;
-    this.baseDamage = 10;
+    this.baseDamage = 8;
     this.magicNumber = this.baseMagicNumber;
     this.isMultiDamage = true;
   }
