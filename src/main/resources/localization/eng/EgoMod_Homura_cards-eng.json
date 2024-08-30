@@ -32,14 +32,14 @@
   },
   "TimeBomb": {
     "NAME": "TimeBomb",
-    "DESCRIPTION": "At the end of enemy turn, deal !M! damage. NL Throw. NL Arm."
+    "DESCRIPTION": "At the end of the enemy turn, deal !M! damage. NL Throw. NL Arm."
   },
   "Smoke": {
     "NAME": "Smoke Bomb",
     "DESCRIPTION": "Gain !B! Block. NL Apply !M! Weak to ALL enemies. NL Throw. NL Arm."
   },
   "M84": {
-    "NAME": "Shock Bomb",
+    "NAME": "M84  Stun Grenade",
     "DESCRIPTION": "Stun a random enemy. NL Throw. NL Arm.",
     "UPGRADE_DESCRIPTION": "Stun ALL enemies. NL Throw. NL Arm."
   },
@@ -54,16 +54,16 @@
     "DESCRIPTION": "The next !M! times you are attacked, deal equal damage back. NL Exhaust. NL Arm."
   },
   "M249": {
-    "NAME": "M249",
+    "NAME": "M249 LMG",
     "DESCRIPTION": "Deal !D! damage to a random enemy !M! times. NL Arm."
   },
   "M870": {
-    "NAME": "M870",
+    "NAME": "Remington  M870",
     "DESCRIPTION": "Deal !D! damage !M! times. Apply 1 Weak and Vulnerable !M! times. NL Arm."
   },
   "M92": {
-    "NAME": "Empty Magazine",
-    "DESCRIPTION": "Deal !D! damage !M! times. NL Exhaust. NL Arm."
+    "NAME": "Beretta M9",
+    "DESCRIPTION": "Deal !D! dam  age !M! times. NL Exhaust. NL Arm."
   },
   "Flash": {
     "NAME": "Flash",
@@ -90,7 +90,7 @@
     "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak and Vulnerable. NL Anti-tank. NL Arm."
   },
   "SSM1": {
-    "NAME": "SSM1",
+    "NAME": "SSM- 1",
     "DESCRIPTION": "Deal !D! damage to a random enemy 6 times. NL Anti-tank. NL Arm."
   },
   "AT4": {
@@ -155,7 +155,7 @@
   },
   "Treatment": {
     "NAME": "Purify",
-    "DESCRIPTION": "Exhaust all of your Status. NL Exhaust.",
+    "DESCRIPTION": "Exhaust all of your Status cards. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Retain. NL Exhaust all of your Status. NL Exhaust."
   },
   "Production": {
@@ -219,33 +219,31 @@
   },
   "Maze": {
     "NAME": "Maze",
-    "DESCRIPTION": "Draw 1 card for each SaveLoad. NL Add a *Despair into your discard pile. NL Exhaust. NL !M! SaveLoads.",
-    "UPGRADE_DESCRIPTION": "Draw 1 card for each SaveLoad. NL Add a *Despair into your discard pile. NL !M! SaveLoads."
+    "DESCRIPTION": "Draw 1 card for each Save Reload. NL Add a *Despair into your discard pile. NL Exhaust. NL !M! Save Reloads.",
+    "UPGRADE_DESCRIPTION": "Draw 1 card for each Save Reloads. NL Add a *Despair into your discard pile. NL !M! Save Reloads."
   },
   "Strong": {
     "NAME": "Stronger",
-    "DESCRIPTION": "Lose 1 HP and gain 1 Strength for each SaveLoad. NL !M! SaveLoads."
+    "DESCRIPTION": "Lose 1 HP and gain 1 Strength for each Save Reload. NL !M! Save Reloads."
   },
   "Twining": {
     "NAME": "Twining",
-    "DESCRIPTION": "Gain 1 Constricted for each SaveLoad. NL At the start of your turn, gain [E]. NL !M! SaveLoads."
+    "DESCRIPTION": "Gain 1 Constricted for each Save Reload. NL At the start of your turn, gain [E]. NL !M! Save Reloads."
   },
   "Alone": {
     "NAME": "Alone",
     "DESCRIPTION": "Gain !M! Block for each unique card in your deck. NL Add a *Despair into your discard pile. NL !B! unique cards.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Block for each unique card in your deck. NL Curses add additional Block. NL Add a *Despair into your discard pile. NL !B! unique cards."
+    "UPGRADE_DESCRIPTION": "Gain !M! Block for each unique card in your deck. NL Curses add an additional Block. NL Add a *Despair into your discard pile. NL !B! unique cards."
   },
-
   "Demon": {
     "NAME": "Demon",
-    "DESCRIPTION": "Playable with a combination of 15+ Curses and Servant types. NL Deal !D! x !M! damage. NL Instant kill normal enemies that would have 30 or less HP. NL Total: !M!/ 15",
-    "UPGRADE_DESCRIPTION": "Retain. Playable with a combination of 15+ Curses and Servant types. NL Deal !D! x !M! damage. NL Instant kill normal enemies that would have 30 or less HP. NL Total: !M!/ 15"
+    "DESCRIPTION": "Playable with a combination of 15+ Curses and unique Servants. NL Deal !D! x !M! damage. NL Instant kill normal enemies that would have 30 or less HP. NL Total: !M!/ 15",
+    "UPGRADE_DESCRIPTION": "Retain. Playable with a combination of 15+ Curses and unique Servant. NL Deal !D! x !M! damage. NL Instant kill normal enemies that would have 30 or less HP. NL Total: !M!/ 15"
   },
   "Encircle": {
     "NAME": "Encircle",
-    "DESCRIPTION": "Deal !D! damage for each kind of Servant. NL Hunt. NL !M! Servant kinds."
+    "DESCRIPTION": "Deal !D! damage for each unique Servant. NL Hunt. NL !M! Servant types."
   },
-
   "Ruin": {
     "NAME": "Ruin",
     "DESCRIPTION": "Deal !D! damage to ALL enemies for each Curse card you have. NL !M! Curse cards."
@@ -263,7 +261,6 @@
     "NAME": "Mud",
     "DESCRIPTION": "Apply 1 Weak and Vulnerable to ALL enemies for each Curse card you have. NL !M! Curse cards."
   },
-
   "No1": {
     "NAME": "Arrogance",
     "DESCRIPTION": "Deal !D! damage. NL Gain !M! Vulnerable. NL Servant."
@@ -313,7 +310,7 @@
   },
   "No12": {
     "NAME": "Stupid",
-    "DESCRIPTION": "Choose your draw pile at most !M! cards into the discard pile. NL Servant."
+    "DESCRIPTION": "Discard up to !M! cards from your draw pile. NL Servant."
   },
   "No13": {
     "NAME": "Grumpy",
@@ -349,10 +346,10 @@
 
   "CauseAndEffect": {
     "NAME": "Cause and Effect",
-    "DESCRIPTION": "Unplayable. NL Cannot be removed from your deck. NL You've been SaveLoads !M! times."
+    "DESCRIPTION": "Unplayable. NL Cannot be removed from your deck. NL You've Save Reload !M! times."
   },
   "Despair": {
     "NAME": "Despair",
-    "DESCRIPTION": "Unplayable. NL At the end of your turn, lose HP equal to the number of SaveLoads. NL lose !M! HP."
+    "DESCRIPTION": "Unplayable. NL At the end of your turn, lose HP equal to the number of Save Reloads. NL lose !M! HP."
   }
 }
