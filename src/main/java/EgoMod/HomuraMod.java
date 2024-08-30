@@ -104,6 +104,7 @@ public class HomuraMod
     try {
       if (config == null) {
         config = new SpireConfig("Akemi_Homura", "SaveLoadData");
+        config.setBool("MagicalGirl", true); //set magical girl outfit as default
       }
       config.load();
       isSchoolUniform = config.getBool("SchoolUniform");
