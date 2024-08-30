@@ -21,7 +21,7 @@
       "DESCRIPTION": "If you have any of The Courier, Membership Card, Smiling Mask or Merchant's Rug, you can sell Arms in shops by removing the card (does not count towards removal cost)."
     },
     {
-      "NAMES": ["Save Reload", "Save Reloads"],
+      "NAMES": ["save-reload", "save-reloads"],
       "DESCRIPTION": "The number of times you've reloaded your save. Alters the effects of certain cards."
     }
   ]

@@ -39,7 +39,7 @@
     "DESCRIPTION": "Gain !B! Block. NL Apply !M! Weak to ALL enemies. NL Throw. NL Arm."
   },
   "M84": {
-    "NAME": "M84  Stun Grenade",
+    "NAME": "M84 Stun Grenade",
     "DESCRIPTION": "Stun a random enemy. NL Throw. NL Arm.",
     "UPGRADE_DESCRIPTION": "Stun ALL enemies. NL Throw. NL Arm."
   },
@@ -58,12 +58,12 @@
     "DESCRIPTION": "Deal !D! damage to a random enemy !M! times. NL Arm."
   },
   "M870": {
-    "NAME": "Remington  M870",
+    "NAME": "Remington M870",
     "DESCRIPTION": "Deal !D! damage !M! times. Apply 1 Weak and Vulnerable !M! times. NL Arm."
   },
   "M92": {
     "NAME": "Beretta M9",
-    "DESCRIPTION": "Deal !D! dam  age !M! times. NL Exhaust. NL Arm."
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Exhaust. NL Arm."
   },
   "Flash": {
     "NAME": "Flash",
@@ -90,7 +90,7 @@
     "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak and Vulnerable. NL Anti-tank. NL Arm."
   },
   "SSM1": {
-    "NAME": "SSM- 1",
+    "NAME": "SSM-1",
     "DESCRIPTION": "Deal !D! damage to a random enemy 6 times. NL Anti-tank. NL Arm."
   },
   "AT4": {
@@ -219,16 +219,16 @@
   },
   "Maze": {
     "NAME": "Maze",
-    "DESCRIPTION": "Draw 1 card for each Save Reload. NL Add a *Despair into your discard pile. NL Exhaust. NL !M! Save Reloads.",
-    "UPGRADE_DESCRIPTION": "Draw 1 card for each Save Reloads. NL Add a *Despair into your discard pile. NL !M! Save Reloads."
+    "DESCRIPTION": "Draw 1 card for each Save-Reload. NL Add a *Despair into your discard pile. NL Exhaust. NL !M! Save-Reloads.",
+    "UPGRADE_DESCRIPTION": "Draw 1 card for each Save-Reloads. NL Add a *Despair into your discard pile. NL !M! Save-Reloads."
   },
   "Strong": {
     "NAME": "Stronger",
-    "DESCRIPTION": "Lose 1 HP and gain 1 Strength for each Save Reload. NL !M! Save Reloads."
+    "DESCRIPTION": "Lose 1 HP and gain 1 Strength for each Save-Reload. NL !M! Save-Reloads."
   },
   "Twining": {
     "NAME": "Twining",
-    "DESCRIPTION": "Gain 1 Constricted for each Save Reload. NL At the start of your turn, gain [E]. NL !M! Save Reloads."
+    "DESCRIPTION": "Gain 1 Constricted for each Save-Reload. NL At the start of your turn, gain [E]. NL !M! Save-Reloads."
   },
   "Alone": {
     "NAME": "Alone",
@@ -314,7 +314,7 @@
   },
   "No13": {
     "NAME": "Grumpy",
-    "DESCRIPTION": "Gain !B! Block. NL Add a *Normality into your discard pile.  NL Servant."
+    "DESCRIPTION": "Gain !B! Block. NL Add a *Normality into your discard pile. NL Servant."
   },
   "No14": {
     "NAME": "Stubborn",
@@ -346,10 +346,10 @@
 
   "CauseAndEffect": {
     "NAME": "Cause and Effect",
-    "DESCRIPTION": "Unplayable. NL Cannot be removed from your deck. NL You've Save Reload !M! times."
+    "DESCRIPTION": "Unplayable. NL Cannot be removed from your deck. NL You've Save-Reload !M! times."
   },
   "Despair": {
     "NAME": "Despair",
-    "DESCRIPTION": "Unplayable. NL At the end of your turn, lose HP equal to the number of Save Reloads. NL lose !M! HP."
+    "DESCRIPTION": "Unplayable. NL At the end of your turn, lose HP equal to the number of Save-Reloads. NL lose !M! HP."
   }
 }
